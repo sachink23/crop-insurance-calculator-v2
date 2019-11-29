@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.header-title {
+    font-family: 'Anton', sans-serif; 
+    color: #d8ff00;
+    -webkit-text-stroke: 1px red;
+}
+.header-tagline {
+    color: #002142;
+    font-weight: bolder;
+}

@@ -1,0 +1,126 @@
+{
+  "configVersion": 1,
+  "timestamp": 1575051642262,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/5-es2015.27a284c6a13688a88171.js",
+        "/5-es5.27a284c6a13688a88171.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.be71ba7dc2575b22e619.js",
+        "/main-es5.be71ba7dc2575b22e619.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
+        "/runtime-es2015.a829041684b1d3081fbd.js",
+        "/runtime-es5.a829041684b1d3081fbd.js",
+        "/scripts.dda2d1846184eca6c160.js",
+        "/styles.8d0a739782c0baa87cf0.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/branding/kt-rect.png",
+        "/assets/icons/128.png",
+        "/assets/icons/16.png",
+        "/assets/icons/192.png",
+        "/assets/icons/24.png",
+        "/assets/icons/256.png",
+        "/assets/icons/32.png",
+        "/assets/icons/48.png",
+        "/assets/icons/512.png",
+        "/assets/icons/64.png",
+        "/assets/icons/96.png",
+        "/assets/stock/photo-of-person-holding-pen - Copy.jpg",
+        "/assets/stock/photo-of-person-holding-pen.jpg",
+        "/fa-brands-400.06147b6cd88c7346cecd.ttf",
+        "/fa-brands-400.5063b105c7646c8043d5.eot",
+        "/fa-brands-400.a9c4bb7348f42626454c.svg",
+        "/fa-brands-400.c5e0f14f88a828261ba0.woff",
+        "/fa-brands-400.cccc9d29470e879e40eb.woff2",
+        "/fa-regular-400.65b286af947c0d982ca0.ttf",
+        "/fa-regular-400.7b9568e6389b1f8ae090.svg",
+        "/fa-regular-400.c1a866ec0e04a5e1915b.eot",
+        "/fa-regular-400.c4f508e7c4f01a9eeba7.woff",
+        "/fa-regular-400.f5f2566b93e89391da4d.woff2",
+        "/fa-solid-900.0bff33a5fd7ec3902354.ttf",
+        "/fa-solid-900.333bae208dc363746961.woff",
+        "/fa-solid-900.44d537ab79f921fde5a2.woff2",
+        "/fa-solid-900.8e4a6dcc692b3887f9f5.eot",
+        "/fa-solid-900.c2801fb415f03c7b1709.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/5-es2015.27a284c6a13688a88171.js": "91c084331c8a32b75453ab784672c5853ff2fd55",
+    "/5-es5.27a284c6a13688a88171.js": "3229b0a9297437e997e681665a4222607cdf9ed1",
+    "/assets/branding/kt-rect.png": "7116c4036c9b84a832a663695cac5ce365919de9",
+    "/assets/icons/128.png": "b6f4e129fb177130dc8afe32f03cb407140289a4",
+    "/assets/icons/16.png": "f55a227e9ffb7700004e5fa640f8aaba202856e9",
+    "/assets/icons/192.png": "9866a095540d98d077d11cf263befc32de39f33b",
+    "/assets/icons/24.png": "c132250642d2f92e88fd894b7eb3cdd4d1b23737",
+    "/assets/icons/256.png": "ff0ab87f7edc82258ab45f366ba40c76feac9c50",
+    "/assets/icons/32.png": "b8398a82ade9544d1e1b2a55b4ed5f3c14ad5ff3",
+    "/assets/icons/48.png": "42f78240a681f56f7d11b783b61f74031586f7b7",
+    "/assets/icons/512.png": "53f9410bb0589cc04656063cdba9e2eace94d166",
+    "/assets/icons/64.png": "d9dc1b9c2713e9869758c17d3d5f612ec5391b95",
+    "/assets/icons/96.png": "0b161251c7f54e11241fc00b7f9ae41753ca759b",
+    "/assets/stock/photo-of-person-holding-pen - Copy.jpg": "cf13b23301927c5bb48c550e1e68581d0ddbb12b",
+    "/assets/stock/photo-of-person-holding-pen.jpg": "34ad3ebdca5b3cc09cc5f21291d04ef0e3b3c0b9",
+    "/fa-brands-400.06147b6cd88c7346cecd.ttf": "c5a1a93f668d15f55deac38b4728f8d901bd4748",
+    "/fa-brands-400.5063b105c7646c8043d5.eot": "7ed86fe71d4dc31d5edf492f7472d6fb88c3c3c9",
+    "/fa-brands-400.a9c4bb7348f42626454c.svg": "3e9abaae5dc647f4019a4dcdde1b51f14c2054e8",
+    "/fa-brands-400.c5e0f14f88a828261ba0.woff": "6900998c1d878e73b2f9ac3a9a9746365d49a54f",
+    "/fa-brands-400.cccc9d29470e879e40eb.woff2": "5fe986cda635681b4b6bbd6111df2f26d7fca286",
+    "/fa-regular-400.65b286af947c0d982ca0.ttf": "5d5375ce3ae5b500df039da009ccdaca29d52fc0",
+    "/fa-regular-400.7b9568e6389b1f8ae090.svg": "dd1b42f8776d9b48adda30b0069aa0e5f18989d3",
+    "/fa-regular-400.c1a866ec0e04a5e1915b.eot": "1115185386ada5846eecc4e2e1f076ca7617e0cd",
+    "/fa-regular-400.c4f508e7c4f01a9eeba7.woff": "7626840dab0e2ae37b2d16572a6f183a71a0dd73",
+    "/fa-regular-400.f5f2566b93e89391da4d.woff2": "be142af0f56062f6e864de121b98054c7b5954fd",
+    "/fa-solid-900.0bff33a5fd7ec3902354.ttf": "40d9789010f6137e543e4d97025b867707d2f425",
+    "/fa-solid-900.333bae208dc363746961.woff": "43dae5c2482bfb5d04d896529600eb621181103a",
+    "/fa-solid-900.44d537ab79f921fde5a2.woff2": "b2879f9e1d0985a96842bf7f55a2b2cc4c636d04",
+    "/fa-solid-900.8e4a6dcc692b3887f9f5.eot": "340ee70e87850176047733192ea8109dd6380082",
+    "/fa-solid-900.c2801fb415f03c7b1709.svg": "55a9f6dd285c88c6c9847fee0d5ce127c4c61c52",
+    "/favicon.ico": "a7cf506f3c1b4df872c1140614230192a0f30aa0",
+    "/index.html": "0ce59c2572eef81a43c29b8d8b6733fabd57333c",
+    "/main-es2015.be71ba7dc2575b22e619.js": "ed39e3ffa50eb827de370c7c75111a5c4b620c27",
+    "/main-es5.be71ba7dc2575b22e619.js": "0e6cf622f6fd477cef4383eeaf6f69afe7e78c7f",
+    "/manifest.webmanifest": "00e653043d274cf9cf0db27d2a6278127bf11949",
+    "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "9ceb13edd4b10268f661814868dadb2b284f9745",
+    "/runtime-es2015.a829041684b1d3081fbd.js": "2114b7b3d470feb1d9c5739480b524df152f9548",
+    "/runtime-es5.a829041684b1d3081fbd.js": "d877123cce4e141f328fd7d01259e50bb5b2b81d",
+    "/scripts.dda2d1846184eca6c160.js": "0d2ce37976cfd46b1c718323b432debe14d0eb56",
+    "/styles.8d0a739782c0baa87cf0.css": "d66b680db952697e96d4cb570ac50db1608053cb"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
