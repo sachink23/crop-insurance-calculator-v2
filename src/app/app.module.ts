@@ -27,6 +27,8 @@ import { HighlightComponent } from './components/ui-elements/highlight/highlight
 import { BlogPostComponent } from './components/ui-elements/blog-post/blog-post.component';
 import { PwaUpdateService } from './services/update/pwa-update.service';
 import { SeoService } from './services/seo/seo.service';
+import { FollowOurBlogComponent } from './components/ui-elements/follow-our-blog/follow-our-blog.component';
+import { GetBlogsService } from './services/get-blogs/get-blogs.service';
 
 @NgModule({
   declarations: [
@@ -47,6 +49,7 @@ import { SeoService } from './services/seo/seo.service';
     TeamComponent,
     HighlightComponent,
     BlogPostComponent,
+    FollowOurBlogComponent,
   ],
   imports: [
     BrowserModule,
@@ -61,6 +64,7 @@ import { SeoService } from './services/seo/seo.service';
     GetDistrictsService,
     GetSeasonsService,
     GetCropsService,
+    GetBlogsService,
     PwaUpdateService,
     SeoService
   ],

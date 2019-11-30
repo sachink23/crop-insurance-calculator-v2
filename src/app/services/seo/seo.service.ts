@@ -11,12 +11,12 @@ export class SeoService {
   defaultPageSeo(title, description = this.defaultDescription) {
     this.titleService.setTitle(title)
     var tags = [
-      {name: 'description', content: description},
-      {name: 'og:locale', content: 'en_US'},
-      {name: 'og:type', content: 'website'},
-      {name: 'og:title', content: title},
-      {name: 'og:description', content: description},
-      {name: 'og:image', content: 'assets/icons/48.png'} 
+      {property: 'description', content: description},
+      {property: 'og:locale', content: 'en_US'},
+      {property: 'og:type', content: 'website'},
+      {property: 'og:title', content: title},
+      {property: 'og:description', content: description},
+      {property: 'og:image', content: 'assets/icons/48.png'} 
     ]
     tags.forEach(tag => {
       this.meta.updateTag(tag)

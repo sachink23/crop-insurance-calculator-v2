@@ -1,0 +1,41 @@
+{
+    "blogs": [
+        {
+            "id": 1,            
+            "slug": "introductory blog 1",
+            "title": "Concept Behind The Crop Insurance Calculator 1",
+            "author": "Sachin Kekarjawlekar",
+            "date": "dd/mm/yyyy",
+            "featured-image": "https://via.placeholder.com/400x250",
+            "excerpt": "excerpt for the description",
+            "read_time": 2,
+            "content": "content to the blog in html"
+
+        },
+        {
+            "id": 2,            
+            "slug": "introductory blog 1",
+            "title": "Concept Behind The Crop Insurance Calculator 1",
+            "author": "Sachin Kekarjawlekar",
+            "date": "dd/mm/yyyy",
+            "featured-image": "https://via.placeholder.com/400x250",
+            "excerpt": "excerpt for the description",
+            "read_time": 2,
+            "content": "content to the blog in html"
+
+        },
+        {
+            "id": 3,            
+            "slug": "introductory blog 1",
+            "title": "Concept Behind The Crop Insurance Calculator 1",
+            "author": "Sachin Kekarjawlekar",
+            "date": "dd/mm/yyyy",
+            "featured-image": "https://via.placeholder.com/400x250",
+            "excerpt": "excerpt for the description",
+            "read_time": 2,
+            "content": "content to the blog in html"
+
+        }
+
+    ]
+}
