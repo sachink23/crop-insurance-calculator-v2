@@ -25,6 +25,8 @@ import { FeaturesComponent } from './components/ui-elements/features/features.co
 import { AchievementStatsComponent } from './components/ui-elements/achievement-stats/achievement-stats.component';
 import { TeamComponent } from './components/ui-elements/team/team.component';
 import { HighlightComponent } from './components/ui-elements/highlight/highlight.component';
+import { BlogPostComponent } from './components/ui-elements/blog-post/blog-post.component';
+import { PwaUpdateService } from './services/update/pwa-update.service';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,8 @@ import { HighlightComponent } from './components/ui-elements/highlight/highlight
     FeaturesComponent,
     AchievementStatsComponent,
     TeamComponent,
-    HighlightComponent
+    HighlightComponent,
+    BlogPostComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,7 +58,8 @@ import { HighlightComponent } from './components/ui-elements/highlight/highlight
     GetStatesService,
     GetDistrictsService,
     GetSeasonsService,
-    GetCropsService
+    GetCropsService,
+    PwaUpdateService
   ],
   bootstrap: [AppComponent]
 })

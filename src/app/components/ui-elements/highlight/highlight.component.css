@@ -1,6 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+.title {
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+}
+.text {
+  font-family: 'Bree Serif', serif;
+  font-style: italic;
+}
 .highlight-phone {
     color: #313437;
-   /* background-color: #eef4f7; */
+    background: #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding: 50px 0 55px;
     overflow: hidden;
   }
@@ -90,7 +103,7 @@
     border: 1px solid #444;
     background-color: #aaa;
     overflow: hidden;
-    background: url('src/assets/app/screen-content-iphone-6.jpg');
+    background: url('src/assets/app/screen-content-iphone-6.jpeg');
     background-size: cover;
     background-position: center;
   }

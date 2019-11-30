@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { PwaUpdateService } from './services/update/pwa-update.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'crop-insurance-calculator-v2';
+  constructor(private update: PwaUpdateService){
+   
+  }
 }
