@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SeoService } from 'src/app/services/seo/seo.service';
 
 @Component({
   selector: 'app-calculator',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CalculatorComponent implements OnInit {
 
-  constructor() { }
+  title = "Crop Insurance Calculator V2"
+  
+  constructor(private seo: SeoService) { }
 
   ngOnInit() {
+    this.seo.defaultPageSeo(this.title)
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SeoService } from 'src/app/services/seo/seo.service';
 
 @Component({
   selector: 'app-featured-products',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeaturedProductsComponent implements OnInit {
 
-  constructor() { }
+  title = "Featured Products : Crop Insurance Calculator"
+  description = "List of some featured products by the team of crop insurance calculator at Kekarjawalekar Technologies."
+  
+  constructor(private seo: SeoService) { }
 
   ngOnInit() {
+    this.seo.defaultPageSeo(this.title, this.description)
   }
 
 }

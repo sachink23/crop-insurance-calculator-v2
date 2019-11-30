@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SeoService } from 'src/app/services/seo/seo.service';
 
 @Component({
   selector: 'app-blog',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 
-  constructor() { }
+  title = "Blog : Crop Insurance Calculator"
+  description = "Articles written by the experts at Kekarjawalekar Technologies for Crop Insurance Calculator"
+  
+  constructor(private seo: SeoService) { }
 
   ngOnInit() {
+    this.seo.defaultPageSeo(this.title, this.description)
   }
 
 }

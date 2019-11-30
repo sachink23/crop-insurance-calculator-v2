@@ -1,6 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title, Meta } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/ui-elements/navbar/navbar.component';
@@ -27,6 +26,7 @@ import { TeamComponent } from './components/ui-elements/team/team.component';
 import { HighlightComponent } from './components/ui-elements/highlight/highlight.component';
 import { BlogPostComponent } from './components/ui-elements/blog-post/blog-post.component';
 import { PwaUpdateService } from './services/update/pwa-update.service';
+import { SeoService } from './services/seo/seo.service';
 
 @NgModule({
   declarations: [
@@ -55,11 +55,14 @@ import { PwaUpdateService } from './services/update/pwa-update.service';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
+    Title,
+    Meta,
     GetStatesService,
     GetDistrictsService,
     GetSeasonsService,
     GetCropsService,
-    PwaUpdateService
+    PwaUpdateService,
+    SeoService
   ],
   bootstrap: [AppComponent]
 })
