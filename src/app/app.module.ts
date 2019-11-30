@@ -21,6 +21,10 @@ import { CalculatorComponent } from './components/pages/calculator/calculator.co
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { TestimonialsComponent } from './components/ui-elements/testimonials/testimonials.component';
 import { HomepageHeaderComponent } from './components/ui-elements/homepage-header/homepage-header.component';
+import { FeaturesComponent } from './components/ui-elements/features/features.component';
+import { AchievementStatsComponent } from './components/ui-elements/achievement-stats/achievement-stats.component';
+import { TeamComponent } from './components/ui-elements/team/team.component';
+import { HighlightComponent } from './components/ui-elements/highlight/highlight.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +39,11 @@ import { HomepageHeaderComponent } from './components/ui-elements/homepage-heade
     CalculatorComponent,
     PrivacyPolicyComponent,
     TestimonialsComponent,
-    HomepageHeaderComponent
+    HomepageHeaderComponent,
+    FeaturesComponent,
+    AchievementStatsComponent,
+    TeamComponent,
+    HighlightComponent
   ],
   imports: [
     BrowserModule,

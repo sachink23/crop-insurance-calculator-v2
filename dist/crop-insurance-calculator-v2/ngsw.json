@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1575051642262,
+  "timestamp": 1575112318962,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,8 +12,8 @@
         "/5-es5.27a284c6a13688a88171.js",
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.be71ba7dc2575b22e619.js",
-        "/main-es5.be71ba7dc2575b22e619.js",
+        "/main-es2015.20db54689de7475af1ef.js",
+        "/main-es5.20db54689de7475af1ef.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
@@ -29,6 +29,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/assets/app/screen-content-iphone-6.jpg",
         "/assets/branding/kt-rect.png",
         "/assets/icons/128.png",
         "/assets/icons/16.png",
@@ -40,8 +41,12 @@
         "/assets/icons/512.png",
         "/assets/icons/64.png",
         "/assets/icons/96.png",
+        "/assets/stock/iphone.svg",
         "/assets/stock/photo-of-person-holding-pen - Copy.jpg",
         "/assets/stock/photo-of-person-holding-pen.jpg",
+        "/assets/team/ganesh.jpg",
+        "/assets/team/pruthviraj.jpg",
+        "/assets/team/santosh.jpg",
         "/fa-brands-400.06147b6cd88c7346cecd.ttf",
         "/fa-brands-400.5063b105c7646c8043d5.eot",
         "/fa-brands-400.a9c4bb7348f42626454c.svg",
@@ -56,7 +61,8 @@
         "/fa-solid-900.333bae208dc363746961.woff",
         "/fa-solid-900.44d537ab79f921fde5a2.woff2",
         "/fa-solid-900.8e4a6dcc692b3887f9f5.eot",
-        "/fa-solid-900.c2801fb415f03c7b1709.svg"
+        "/fa-solid-900.c2801fb415f03c7b1709.svg",
+        "/screen-content-iphone-6.8c332c8fe1c168ec10fb.jpg"
       ],
       "patterns": []
     }
@@ -65,6 +71,7 @@
   "hashTable": {
     "/5-es2015.27a284c6a13688a88171.js": "91c084331c8a32b75453ab784672c5853ff2fd55",
     "/5-es5.27a284c6a13688a88171.js": "3229b0a9297437e997e681665a4222607cdf9ed1",
+    "/assets/app/screen-content-iphone-6.jpg": "4f079fa289d6d2370e186f62fdb90a41bdeb4017",
     "/assets/branding/kt-rect.png": "7116c4036c9b84a832a663695cac5ce365919de9",
     "/assets/icons/128.png": "b6f4e129fb177130dc8afe32f03cb407140289a4",
     "/assets/icons/16.png": "f55a227e9ffb7700004e5fa640f8aaba202856e9",
@@ -76,8 +83,12 @@
     "/assets/icons/512.png": "53f9410bb0589cc04656063cdba9e2eace94d166",
     "/assets/icons/64.png": "d9dc1b9c2713e9869758c17d3d5f612ec5391b95",
     "/assets/icons/96.png": "0b161251c7f54e11241fc00b7f9ae41753ca759b",
+    "/assets/stock/iphone.svg": "029eafdd37d6145dada35d294e27c3e8adb12ced",
     "/assets/stock/photo-of-person-holding-pen - Copy.jpg": "cf13b23301927c5bb48c550e1e68581d0ddbb12b",
     "/assets/stock/photo-of-person-holding-pen.jpg": "34ad3ebdca5b3cc09cc5f21291d04ef0e3b3c0b9",
+    "/assets/team/ganesh.jpg": "bfb941059dcc7cf54e710caf8cac38cec0f26ca7",
+    "/assets/team/pruthviraj.jpg": "44ab8289a5712bb3eebe70ae89f175e798f947aa",
+    "/assets/team/santosh.jpg": "31f830b360564aff1e66d02a44a9eecb09191d45",
     "/fa-brands-400.06147b6cd88c7346cecd.ttf": "c5a1a93f668d15f55deac38b4728f8d901bd4748",
     "/fa-brands-400.5063b105c7646c8043d5.eot": "7ed86fe71d4dc31d5edf492f7472d6fb88c3c3c9",
     "/fa-brands-400.a9c4bb7348f42626454c.svg": "3e9abaae5dc647f4019a4dcdde1b51f14c2054e8",
@@ -94,14 +105,15 @@
     "/fa-solid-900.8e4a6dcc692b3887f9f5.eot": "340ee70e87850176047733192ea8109dd6380082",
     "/fa-solid-900.c2801fb415f03c7b1709.svg": "55a9f6dd285c88c6c9847fee0d5ce127c4c61c52",
     "/favicon.ico": "a7cf506f3c1b4df872c1140614230192a0f30aa0",
-    "/index.html": "0ce59c2572eef81a43c29b8d8b6733fabd57333c",
-    "/main-es2015.be71ba7dc2575b22e619.js": "ed39e3ffa50eb827de370c7c75111a5c4b620c27",
-    "/main-es5.be71ba7dc2575b22e619.js": "0e6cf622f6fd477cef4383eeaf6f69afe7e78c7f",
+    "/index.html": "ef0a6d4c6ce4c0e0502934ccc5c89ff2b73de42c",
+    "/main-es2015.20db54689de7475af1ef.js": "7580b0401675df73c9d08bae2a4cba5159923d9a",
+    "/main-es5.20db54689de7475af1ef.js": "ebdd61977253180cfb7b152781116d1986f291ae",
     "/manifest.webmanifest": "00e653043d274cf9cf0db27d2a6278127bf11949",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "9ceb13edd4b10268f661814868dadb2b284f9745",
     "/runtime-es2015.a829041684b1d3081fbd.js": "2114b7b3d470feb1d9c5739480b524df152f9548",
     "/runtime-es5.a829041684b1d3081fbd.js": "d877123cce4e141f328fd7d01259e50bb5b2b81d",
+    "/screen-content-iphone-6.8c332c8fe1c168ec10fb.jpg": "4f079fa289d6d2370e186f62fdb90a41bdeb4017",
     "/scripts.dda2d1846184eca6c160.js": "0d2ce37976cfd46b1c718323b432debe14d0eb56",
     "/styles.8d0a739782c0baa87cf0.css": "d66b680db952697e96d4cb570ac50db1608053cb"
   },

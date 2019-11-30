@@ -1,0 +1,15 @@
+  /* Style the counter cards */
+
+  .card-counter {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    color: #313437;
+  }
+  
+  .fa, .fas {
+    font-size:50px;
+    color: #1485ee;
+  
+  }
