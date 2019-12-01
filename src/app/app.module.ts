@@ -4,10 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/ui-elements/navbar/navbar.component';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
-import { GetDistrictsService } from './services/districts/get-districts.service';
-import { GetStatesService } from './services/states/get-states.service';
-import { GetSeasonsService } from './services/seasons/get-seasons.service';
-import { GetCropsService } from './services/crops/get-crops.service';
 import { FooterComponent } from './components/ui-elements/footer/footer.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -28,8 +24,8 @@ import { BlogPostComponent } from './components/ui-elements/blog-post/blog-post.
 import { PwaUpdateService } from './services/update/pwa-update.service';
 import { SeoService } from './services/seo/seo.service';
 import { FollowOurBlogComponent } from './components/ui-elements/follow-our-blog/follow-our-blog.component';
-import { GetBlogsService } from './services/get-blogs/get-blogs.service';
-import { CalculatorService } from './services/calculator.service';
+import { CalculatorService } from './services/calculator/calculator.service';
+import { BlogService } from './services/blog/blog.service';
 
 @NgModule({
   declarations: [
@@ -62,13 +58,7 @@ import { CalculatorService } from './services/calculator.service';
     Title,
     Meta,
     CalculatorService,
-    /*
-    GetStatesService,
-    GetDistrictsService,
-    GetSeasonsService,
-    GetCropsService,
-    */
-    GetBlogsService,
+    BlogService,
     PwaUpdateService,
     SeoService
   ],
