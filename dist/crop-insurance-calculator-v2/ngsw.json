@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1575199053148,
+  "timestamp": 1575206765527,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.e2dfd36ae598b9c55840.js",
-        "/main-es5.e2dfd36ae598b9c55840.js",
+        "/main-es2015.38e3393f9b9564d9200c.js",
+        "/main-es5.38e3393f9b9564d9200c.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
@@ -29,7 +29,6 @@
       "urls": [
         "/assets/app/screen-content-iphone-6.jpeg",
         "/assets/app/screen-content-iphone-6.jpg",
-        "/assets/blogs/blogs.json",
         "/assets/branding/kt-rect.png",
         "/assets/icons/128.png",
         "/assets/icons/16.png",
@@ -74,7 +73,6 @@
   "hashTable": {
     "/assets/app/screen-content-iphone-6.jpeg": "9c0c3f2e46bf283fbbcb32a7cb3ebfd1f1bddac5",
     "/assets/app/screen-content-iphone-6.jpg": "4f079fa289d6d2370e186f62fdb90a41bdeb4017",
-    "/assets/blogs/blogs.json": "a674867acfb2e40e32fb1f606d305ca00418ff4f",
     "/assets/branding/kt-rect.png": "7116c4036c9b84a832a663695cac5ce365919de9",
     "/assets/icons/128.png": "b6f4e129fb177130dc8afe32f03cb407140289a4",
     "/assets/icons/16.png": "f55a227e9ffb7700004e5fa640f8aaba202856e9",
@@ -110,9 +108,9 @@
     "/fa-solid-900.8e4a6dcc692b3887f9f5.eot": "340ee70e87850176047733192ea8109dd6380082",
     "/fa-solid-900.c2801fb415f03c7b1709.svg": "55a9f6dd285c88c6c9847fee0d5ce127c4c61c52",
     "/favicon.ico": "a7cf506f3c1b4df872c1140614230192a0f30aa0",
-    "/index.html": "e8c701df750c21cff871e704d37745a50864e816",
-    "/main-es2015.e2dfd36ae598b9c55840.js": "c5cf1fef5c25350084daf33a3e5f5d09a9d7a0c3",
-    "/main-es5.e2dfd36ae598b9c55840.js": "a5f3f843d2a483c6c72e046ed390fe39522ad2ca",
+    "/index.html": "0bcef4b1e5c8f122ca8df84566fda6aa092585fc",
+    "/main-es2015.38e3393f9b9564d9200c.js": "c937864025431ec9110edfd3f2e2029affb3c480",
+    "/main-es5.38e3393f9b9564d9200c.js": "4d92178eedc050d2725d7ae1383f9aa25516654e",
     "/manifest.webmanifest": "00e653043d274cf9cf0db27d2a6278127bf11949",
     "/photo-of-person-holding-pen.ef06ba8cfe4622aa141d.jpg": "34ad3ebdca5b3cc09cc5f21291d04ef0e3b3c0b9",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",

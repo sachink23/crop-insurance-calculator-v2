@@ -1,4 +1,4 @@
-export class Rabi {
+export class Rabi2019 {
     data = {
         season_id: 1,
         season_name: "Rabbi - 2019-2020",

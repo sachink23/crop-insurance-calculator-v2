@@ -26,6 +26,7 @@ import { SeoService } from './services/seo/seo.service';
 import { FollowOurBlogComponent } from './components/ui-elements/follow-our-blog/follow-our-blog.component';
 import { CalculatorService } from './services/calculator/calculator.service';
 import { BlogService } from './services/blog/blog.service';
+import { Rabi2019 } from './data/seasons/rabi2019/rabi2019';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,10 @@ import { BlogService } from './services/blog/blog.service';
     CalculatorService,
     BlogService,
     PwaUpdateService,
-    SeoService
+    SeoService,
+
+    /*Seasons */
+    Rabi2019
   ],
   bootstrap: [AppComponent]
 })
