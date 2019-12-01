@@ -29,6 +29,7 @@ import { PwaUpdateService } from './services/update/pwa-update.service';
 import { SeoService } from './services/seo/seo.service';
 import { FollowOurBlogComponent } from './components/ui-elements/follow-our-blog/follow-our-blog.component';
 import { GetBlogsService } from './services/get-blogs/get-blogs.service';
+import { CalculatorService } from './services/calculator.service';
 
 @NgModule({
   declarations: [
@@ -60,10 +61,13 @@ import { GetBlogsService } from './services/get-blogs/get-blogs.service';
   providers: [
     Title,
     Meta,
+    CalculatorService,
+    /*
     GetStatesService,
     GetDistrictsService,
     GetSeasonsService,
     GetCropsService,
+    */
     GetBlogsService,
     PwaUpdateService,
     SeoService
