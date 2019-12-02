@@ -1,5 +1,5 @@
-export class Rabi2019 {
-    data = {
+export class Seasons {
+    data = [{
         season_id: 1,
         season_name: "Rabbi - 2019",
         season_name_mr: "रब्बी २०१९",
@@ -1413,5 +1413,5 @@ export class Rabi2019 {
             }
           ]
         }]
-      }
+      }]
 }

@@ -26,7 +26,13 @@ import { SeoService } from './services/seo/seo.service';
 import { FollowOurBlogComponent } from './components/ui-elements/follow-our-blog/follow-our-blog.component';
 import { CalculatorService } from './services/calculator/calculator.service';
 import { BlogService } from './services/blog/blog.service';
-import { Rabi2019 } from './data/seasons/rabi2019/rabi2019';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { VleModeComponent } from './components/calculator/modes/vle-mode/vle-mode.component';
+import { FarmerModeComponent } from './components/calculator/modes/farmer-mode/farmer-mode.component';
+import { Seasons } from './data/seasons/seasons';
+import { SetupComponent } from './components/calculator/setup/setup.component';
+import { CalculatorSetupService } from './services/calculator/setup/calculator-setup.service';
+import { LocalStorageService } from './services/local-storage/local-storage.service';
 
 @NgModule({
   declarations: [
@@ -48,11 +54,17 @@ import { Rabi2019 } from './data/seasons/rabi2019/rabi2019';
     HighlightComponent,
     BlogPostComponent,
     FollowOurBlogComponent,
+    VleModeComponent,
+    FarmerModeComponent,
+    SetupComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SweetAlert2Module,
+
+    FormsModule,
+    ReactiveFormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
@@ -62,9 +74,10 @@ import { Rabi2019 } from './data/seasons/rabi2019/rabi2019';
     BlogService,
     PwaUpdateService,
     SeoService,
-
+    CalculatorSetupService,
+    LocalStorageService,
     /*Seasons */
-    Rabi2019
+    Seasons,
   ],
   bootstrap: [AppComponent]
 })

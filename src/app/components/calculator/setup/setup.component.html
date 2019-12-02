@@ -1,0 +1,101 @@
+<div *ngIf="activeStep == 1" class="container-fluid">
+
+    <h1 class="title-page mt-2 text-center">Select Mode</h1>
+    <hr class="text-light" />
+
+    <div class="row mb-3">
+
+        <div (click)="setFarmerMode()" class="col-sm-12 offset-sm-0 col-md-6 offset-sm-0 col-lg-4 offset-lg-2">
+            <div class="card text-center mx-3 my-3">
+                <img class="card-img-top" src="assets/stock/farmer-with-tractor.png" alt="Farmer">
+                <div class="card-body">
+                    <h5 class="card-title title">Farmer Mode</h5>
+                    <p class="card-text">If you are a farmer and want a simple calculator then select this mode, simple
+                        but powerful.</p>
+                    <a href="javascript:void(0)" class="text-center card-link">Farmer Mode <i
+                            class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div (click)="setVleUnpaidMode()" class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card text-center mx-3 my-3">
+                <img class="card-img-top" src="assets/branding/csc-logo.jpg" alt="VLE">
+                <div class="card-body">
+                    <h5 class="card-title title">CSC VLE Mode</h5>
+                    <p class="card-text">If you are a CSC VLE and work on pmfby portal for crop insurance policies, this
+                        mode will help you for more detailed calculations.</p>
+                    <a href="javascript:void(0)" class="text-center card-link">CSC VLE Mode <i
+                            class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div *ngIf="activeStep == 2" class="container-fluid">
+    <h1 class="title-page mt-2 text-center">Step 2</h1>
+    <p class="lead text-center">The options selected in this step will be remebered by the app, so that you can start
+        workind
+        directly.</p>
+    <hr class="text-light" />
+    <div class="card mx-auto my-3" style="width: 95%;">
+        <form [formGroup]="selectionForm" (submit)="submitForm()">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="form-group">
+                        <label for="season" class="form-label"
+                            [ngClass]="{'text-danger': checkElement(selectionForm.controls.season)}">Select
+                            Season</label>
+                        <select class="form-control" name="season" formControlName="season" id="season"
+                            [ngClass]="{'is-invalid': checkElement(selectionForm.controls.season)}">
+                            <option value="">Select Season</option>
+                            <option *ngFor="let season of calc.getSeasons()" value="{{season.season_array_index}}">
+                                {{season.season_name}}</option>
+                        </select>
+                        <small class="text-danger" *ngIf="checkElement(selectionForm.controls.season)">Please Select
+                            Valid Season</small>
+                    </div>
+                </li>
+                <li *ngIf="!selectionForm.controls.season.invalid" class="list-group-item">
+                    <div class="form-group">
+                        <label for="state" class="form-label"
+                            [ngClass]="{'text-danger': checkElement(selectionForm.controls.state)}">Select State</label>
+                        <select class="form-control" name="state" formControlName="state" id="state"
+                            [ngClass]="{'is-invalid': checkElement(selectionForm.controls.state)}">
+                            <option value="">Select State</option>
+                            <option *ngFor="let state of calc.getStatesForSeason(selectionForm.controls.season.value)"
+                                value="{{state.state_array_index}}">
+                                {{state.state_name}}</option>
+                        </select>
+                        <small class="text-danger" *ngIf="checkElement(selectionForm.controls.state)">Please Select
+                            Valid State</small>
+                    </div>
+                </li>
+                <li *ngIf="!selectionForm.controls.season.invalid && !selectionForm.controls.state.invalid"
+                    class="list-group-item">
+                    <div class="form-group">
+                        <label for="district" class="form-label"
+                            [ngClass]="{'text-danger': checkElement(selectionForm.controls.district)}">Select District</label>
+                        <select class="form-control" name="district" formControlName="district" id="district"
+                            [ngClass]="{'is-invalid': checkElement(selectionForm.controls.district)}">
+                            <option value="">Select District</option>
+                            <option *ngFor="let district of calc.getDistrictsForSeasonAndState(selectionForm.controls.season.value, selectionForm.controls.state.value)"
+                                value="{{district.dist_array_index}}">
+                                {{district.dist_name}}</option>
+                        </select>
+                        <small class="text-danger" *ngIf="checkElement(selectionForm.controls.district)">Please Select
+                            Valid District</small>
+                    </div>
+                </li>
+                <li *ngIf="!selectionForm.controls.season.invalid && !selectionForm.controls.state.invalid && !selectionForm.controls.district.invalid" class="list-group-item text-right">
+                    <button type="submit" class="btn btn-warning my-2 mx-auto text-right btn-lg">Save Selection</button>
+                </li>
+            </ul>
+        </form>
+        <!--div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div-->
+    </div>
+</div>

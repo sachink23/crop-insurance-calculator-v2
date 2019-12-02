@@ -11,10 +11,11 @@ export class CalculatorComponent implements OnInit {
 
   title = "Crop Insurance Calculator V2"
   
-  constructor(private seo: SeoService, private calc: CalculatorService) { }
+  constructor(private seo: SeoService, public calc: CalculatorService) { }
 
   ngOnInit() {
     this.seo.defaultPageSeo(this.title)
+    
   }
-
+  
 }
