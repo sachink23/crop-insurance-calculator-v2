@@ -12,6 +12,24 @@ export class CalculatorService {
   isSetupRequired() {
     return this.setup.isSetUpRequired()
   }
+  getSetup() {
+    return this.setup.getSetup()
+  }
+  getSeasonName(seasonArrayIndex) {
+    return this.data.data[seasonArrayIndex].season_name
+  }
+  getStateName(seasonArrayIndex, stateArrayIndex) {
+    return this.data.data[seasonArrayIndex].states[stateArrayIndex].state_name
+  }
+  getDistrictName(seasonArrayIndex, stateArrayIndex, districtArrayIndex) {
+    return this.data.data[seasonArrayIndex].states[stateArrayIndex].districts[districtArrayIndex].district_name
+  }
+  getCrops(seasonArrayIndex, stateArrayIndex, districtArrayIndex) {
+    return this.data.data[seasonArrayIndex].states[stateArrayIndex].districts[districtArrayIndex].crops
+  }
+  clearSetup() {
+    this.setup.clearSetup()
+  }
   getSeasons() {
     var seasons = []
     var i = 0

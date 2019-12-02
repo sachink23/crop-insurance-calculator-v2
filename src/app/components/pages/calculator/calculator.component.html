@@ -1,1 +1,98 @@
-<app-calculator-setup *ngIf="calc.isSetupRequired()"></app-calculator-setup>
+<app-calculator-setup *ngIf="isSetupRequired()"></app-calculator-setup>
+
+<div *ngIf="!isSetupRequired()">
+    <div class="calculator-header px-2 py-2">
+        <span class="lead title" style="font-weight: bolder">Calculator For <em><u>{{mode}} | {{season_name_en}} |
+                    {{state_name_en}} | {{district_name_en}} </u></em>| <a href="javascript:void(0)"
+                (click)="clearSetup()" class="lead" style="cursor:pointer"><i class="fas fa-edit"></i> Edit</a></span>
+    </div>
+</div>
+<div *ngIf="!isSetupRequired()">
+    <div class="container mt-4 mb-3">
+        <form class="row" [formGroup]="calcForm" action="javascript:void(0)" (submit)="addCrop()">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="form-group">
+                    <label for="crops">Select Crop</label>
+                    <select (change)="calculate()" class="form-control" formControlName="crops" name="crops" id="crops">
+                        <option value="" disabled>Select Crop</option>
+                        <option *ngFor="let crop of crops; index as i" value="{{i}}">{{crop.crop_name}}</option>
+                    </select>
+                    <small id="helpId" class="form-text text-muted">Help text</small>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="form-group">
+                    <label for="area">Enter Area (Hectors)</label>
+                    <input (change)="calculate()" (keypress)="calculate()" (keyup)="calculate()" type="text" class="form-control" formControlName="area" name="area" id="area"
+                        aria-describedby="areaHelp" placeholder="Area In Hectors">
+                    <small id="areaHelp" class="form-text text-muted">Help text</small>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="form-group">
+                    <label for="premiumAmt">Farmer Premium Amount</label>
+                    <input type="text" disabled formControlName="premiumAmt" class="form-control" name="premiumAmt" id="premiumAmt"
+                        aria-describedby="premiumAmtHelp" placeholder="">
+                    <small id="premiumAmtHelp" class="form-text text-muted">Help text</small>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="form-group">
+                    <label for="insuredAmt">Insured Amount</label>
+                    <input type="text" disabled formControlName="insuredAmt" class="form-control" name="insuredAmt"
+                        id="insuredAmt" aria-describedby="insuredAmtHelp" placeholder="">
+                    <small id="insuredAmtHelp" class="form-text text-muted">Help text</small>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <button (click)="reset()" type="button" class="btn btn-lg btn-danger">Clear</button>
+            </div>
+            <div class="col-6 text-right">
+                <button type="submit" class="btn btn-lg btn-primary">Add Crop</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+<div *ngIf="!isSetupRequired() && selectedCrops.length >= 1">
+    <div class="container table-responsive">
+
+        <table class="table table-bordered table-inverse">
+            <thead class="thead-inverse">
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Crop Name</th>
+                    <th>Area (Hectors)</th>
+                    <th>Farmer Share</th>
+                    <th>Government Share</th>
+                    <th>Total Premium</th>
+                    <th>Insured Amount</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr *ngFor="let crop of selectedCrops; index as i;">
+                    <td scope="row">{{ i+1 }}</td>
+                    <td>{{crop.crop_name}}</td> 
+                    <td class="text-center">{{(areas[i]).toFixed(2)}}</td> 
+                    <td class="text-center">{{(areas[i] * crop.insurance_pricing.premium_farmer_share).toFixed(2)}}</td>
+                    <td class="text-center">{{(areas[i] * crop.insurance_pricing.premium_gov_share).toFixed(2)}}</td>
+                    <td class="text-center">{{(areas[i] * (crop.insurance_pricing.premium_farmer_share + crop.insurance_pricing.premium_gov_share)).toFixed(2)}}</td>
+                    <td class="text-center">{{(areas[i] * crop.insurance_pricing.sum_insured).toFixed(2)}}</td>
+                    <td (click)="removeCrop(i)" class="text-center" style="cursor:pointer;"><i class="fa fa-trash text-danger"></i></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2" class="text-center"><strong>Total Crop<span *ngIf="total.crops > 1">s</span> : {{total.crops}}</strong></td>
+                    <td class="text-center">{{ (total.area).toFixed(2) }}</td>
+                    <td class="text-center">{{ (total.farmer_share).toFixed(2) }}</td>
+                    <td class="text-center">{{ (total.gov_share).toFixed(2) }}</td>
+                    <td class="text-center">{{ (total.premium).toFixed(2) }}</td>
+                    <td class="text-center">{{ (total.insured_amt).toFixed(2) }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

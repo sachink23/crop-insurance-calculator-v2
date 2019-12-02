@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+.calculator-header {
+    -webkit-box-shadow: 0 2px 3px #757575;
+    -moz-box-shadow: 0 2px 3px #757575;
+    box-shadow: 0 2px 3px #757575; 
+    width: 100%;
+    background: white;
+    min-height: 50px;
+    max-height: 80px;
+    margin-bottom: 10px;
+}
+.title {
+    font-family: 'Bree Serif', serif;
+    height: 100%;
+}
+label {
+   /* font-family: 'Bree Serif', serif; */
+    font-weight: bolder;
+    font-size: 20px;
+    color: red;
+}

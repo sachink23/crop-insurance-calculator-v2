@@ -33,6 +33,7 @@ import { Seasons } from './data/seasons/seasons';
 import { SetupComponent } from './components/calculator/setup/setup.component';
 import { CalculatorSetupService } from './services/calculator/setup/calculator-setup.service';
 import { LocalStorageService } from './services/local-storage/local-storage.service';
+import { CalculatorHeaderComponent } from './components/calculator/calculator-header/calculator-header.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import { LocalStorageService } from './services/local-storage/local-storage.serv
     VleModeComponent,
     FarmerModeComponent,
     SetupComponent,
+    CalculatorHeaderComponent,
   ],
   imports: [
     BrowserModule,

@@ -35,11 +35,10 @@
 </div>
 <div *ngIf="activeStep == 2" class="container-fluid">
     <h1 class="title-page mt-2 text-center">Step 2</h1>
-    <p class="lead text-center">The options selected in this step will be remebered by the app, so that you can start
-        workind
-        directly.</p>
+    <p class="text-muted text-center">The options selected in this step will be remebered by the app, so that you can start
+        working directly.</p>
     <hr class="text-light" />
-    <div class="card mx-auto my-3" style="width: 95%;">
+    <div class="card card-custom mx-auto my-3">
         <form [formGroup]="selectionForm" (submit)="submitForm()">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">

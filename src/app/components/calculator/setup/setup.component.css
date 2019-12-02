@@ -6,7 +6,11 @@
 .form-label {
     font-family: 'Bree Serif', serif;
 }
-.title-page {
+.title-page { 
     font-family: 'Bree Serif', serif;
     font-style: italic;
+}
+.card-custom {
+    width: 97%;
+    min-height: 450px;
 }
