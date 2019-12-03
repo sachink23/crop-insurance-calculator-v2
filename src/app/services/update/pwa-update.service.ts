@@ -8,6 +8,7 @@ import Swal from 'sweetalert2';
 export class PwaUpdateService {
   constructor(private swUpdate: SwUpdate) {
     this.swUpdate.available.subscribe(evt => {
+        console.log("Update Available")
         Swal.fire({
           title: "Update Available",
           icon: "info",

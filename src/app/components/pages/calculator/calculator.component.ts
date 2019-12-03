@@ -12,7 +12,7 @@ import Swal from 'sweetalert2';
 export class CalculatorComponent implements OnInit {
 
   title = "Crop Insurance Calculator V2"
-  
+  isResetRequired = true
   stp = null
   mode = null
   state_name_en = null
@@ -84,6 +84,10 @@ export class CalculatorComponent implements OnInit {
   isSetupRequired() {
     if(this.calc.isSetupRequired()) 
       return true
+    if(this.isResetRequired){
+      this.reset()
+      this.isResetRequired = false
+    }
     this.stp = this.calc.getSetup()
     if(this.stp.mode == "farmer")
       this.mode = "Farmer"
@@ -151,6 +155,7 @@ export class CalculatorComponent implements OnInit {
   reset() {
       this.ngOnInit()
   }
+
 
   
 }
