@@ -128,8 +128,8 @@ export class BasicComponent implements OnInit {
     this.selectedCrops.forEach(crop => {
       farmershare = (farmershare + (this.areas[crops]*crop.insurance_pricing.premium_farmer_share))
       govshare = govshare + (this.areas[crops]*crop.insurance_pricing.premium_gov_share)
-      crops++
       insuredamt = insuredamt + (this.areas[crops] * crop.insurance_pricing.sum_insured)
+      crops++
     })
     this.total = {
       crops: this.selectedCrops.length,
