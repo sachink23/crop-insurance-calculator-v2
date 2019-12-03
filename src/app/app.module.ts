@@ -34,6 +34,7 @@ import { SetupComponent } from './components/calculator/setup/setup.component';
 import { CalculatorSetupService } from './services/calculator/setup/calculator-setup.service';
 import { LocalStorageService } from './services/local-storage/local-storage.service';
 import { CalculatorHeaderComponent } from './components/calculator/calculator-header/calculator-header.component';
+import { BasicComponent } from './components/calculator/basic/basic.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { CalculatorHeaderComponent } from './components/calculator/calculator-he
     FarmerModeComponent,
     SetupComponent,
     CalculatorHeaderComponent,
+    BasicComponent,
   ],
   imports: [
     BrowserModule,
