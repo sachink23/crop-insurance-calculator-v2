@@ -84,10 +84,7 @@ export class CalculatorComponent implements OnInit {
   isSetupRequired() {
     if(this.calc.isSetupRequired()) 
       return true
-    if(this.isResetRequired){
-      this.reset()
-      this.isResetRequired = false
-    }
+      
     this.stp = this.calc.getSetup()
     if(this.stp.mode == "farmer")
       this.mode = "Farmer"
@@ -96,10 +93,15 @@ export class CalculatorComponent implements OnInit {
     this.season_name_en = this.calc.getSeasonName(this.stp.season_id)
     this.state_name_en = this.calc.getStateName(this.stp.season_id, this.stp.state_id)
     this.district_name_en = this.calc.getDistrictName(this.stp.season_id, this.stp.state_id, this.stp.district_id)
-    this.crops = this.calc.getCrops(this.stp.season_id, this.stp.state_id, this.stp.district_id)
+    this.crops = this.calc.getCrops(this.stp.season_id, this.stp.state_id, this.stp.district_id) 
+    if(this.isResetRequired){
+      this.reset()
+      this.isResetRequired = false
+    }
     return false
   }
   clearSetup() {
+    this.isResetRequired = true
     this.calc.clearSetup()
   }
   addCrop() {

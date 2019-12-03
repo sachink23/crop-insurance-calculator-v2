@@ -24,7 +24,13 @@ export class PwaUpdateService {
               this.update()
           }
         })
-    })
+    }, 
+    error => console.log(error),
+    function() {
+      console.log("SwUpdate Executed")
+    }
+    
+    )
   }
   update() {
     window.location.reload(true)
