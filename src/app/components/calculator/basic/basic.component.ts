@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SeoService } from 'src/app/services/seo/seo.service';
 import { CalculatorService } from 'src/app/services/calculator/calculator.service';
-import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import Swal from 'sweetalert2';
 
 @Component({
@@ -19,7 +18,8 @@ export class BasicComponent implements OnInit {
   crops = []
   selectedCrops = []
   areas: Array<number>
-  calcForm
+  calcForm:FormGroup
+  vleCalcForm: FormGroup
   total = {
     crops: 0,
     area : 0,
@@ -58,11 +58,24 @@ export class BasicComponent implements OnInit {
       area: ['', [
         Validators.required,
         Validators.min(0),
-        Validators.max(1000)
+        Validators.max(1000),
       ]],
       premiumAmt: ['', []],
       insuredAmt: ['', []]
     })
+    this.vleCalcForm = this.builder.group({
+      name: ['', [
+      ]],
+      village: ['', [
+      ]],
+      paid_amt: ['', [
+        
+      ]],
+      pending_amt: ['', []]
+    })
+    this.vleCalcForm.controls.paid_amt.setValue(0)
+    this.vleCalcForm.controls.pending_amt.setValue(0)
+    this.vleCalcForm.reset()
     this.calcForm.reset()
   }
   calculate() {
@@ -85,8 +98,10 @@ export class BasicComponent implements OnInit {
     this.stp = this.calc.getSetup()
     if(this.stp.mode == "farmer")
       this.mode = "Farmer"
-    else
+    else 
       this.mode = "VLE"
+      
+    
     this.season_name_en = this.calc.getSeasonName(this.stp.season_id)
     this.state_name_en = this.calc.getStateName(this.stp.season_id, this.stp.state_id)
     this.district_name_en = this.calc.getDistrictName(this.stp.season_id, this.stp.state_id, this.stp.district_id)
@@ -96,6 +111,15 @@ export class BasicComponent implements OnInit {
   }
   clearSetup() {
     this.calc.clearSetup()
+    Swal.fire({
+      icon: 'success',
+      title: 'Setup Cleared',
+      text: 'As you have cleared previous setup, you have to select mode, season, state and district again...'
+    })
+  }
+  vleForm() {
+    var amt_paid = parseFloat(this.vleCalcForm.controls.paid_amt.value)
+    this.vleCalcForm.controls.pending_amt.setValue(this.total.farmer_share - amt_paid)
   }
   addCrop() {
     if(this.calcForm.controls.crops.valid && this.calcForm.controls.area.valid) {
@@ -104,6 +128,8 @@ export class BasicComponent implements OnInit {
       this.selectedCrops.push(crop)
       this.calcForm.reset()
       this.getTotal()
+      document.getElementById('crops').focus()
+      this.vleForm()
       return
     }
     if(this.calcForm.controls.crops.invalid || this.calcForm.controls.area.invalid) {
@@ -145,12 +171,23 @@ export class BasicComponent implements OnInit {
     this.selectedCrops.splice(indexOfElement, 1)
     this.areas.splice(indexOfElement, 1)
     this.getTotal()
-  }
+    this.vleForm()
 
+  }
+  vleFormComplete() {
+    if(this.vleCalcForm.controls.paid_amt.value < 0 || this.vleCalcForm.controls.paid_amt.value == null)
+       return false
+    if(this.total.crops < 1)
+      return false
+    
+    return true
+  }
   reset() {
       this.ngOnInit()
   }
-
+  printForVle() {
+    window.print()
+  }
 
   
 }

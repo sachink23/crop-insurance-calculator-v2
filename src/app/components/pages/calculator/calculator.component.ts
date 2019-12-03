@@ -34,7 +34,7 @@ export class CalculatorComponent implements OnInit {
   constructor(private seo: SeoService, public calc: CalculatorService, private builder: FormBuilder) { }
   
   ngOnInit() {
-    
+    this.seo.defaultPageSeo("Crop Insurance Calculator V2")  
   }
   isSetupRequired() {
     if(this.calc.isSetupRequired()) 

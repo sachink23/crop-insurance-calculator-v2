@@ -1,96 +1,166 @@
-<div *ngIf="!isSetupRequired()">
-    <div class="calculator-header px-2 py-2">
-        <span class="lead title" style="font-weight: bolder">Calculator For <em><u>{{mode}} | {{season_name_en}} |
+<div *ngIf="!isSetupRequired()" class="calculator-body">
+    <div class="calculator-header px-2 py-2 print">
+        <span class="lead title" style="font-weight: bolder"><span class="hide-for-print">Calculator For
+            </span><em><u><span class="hide-for-print">{{mode}} | </span>{{season_name_en}} |
                     {{state_name_en}} | {{district_name_en}} </u></em>| <a href="javascript:void(0)"
-                (click)="clearSetup()" class="lead" style="cursor:pointer"><i class="fas fa-edit"></i> Edit</a></span>
+                (click)="clearSetup()" class="lead hide-for-print" style="cursor:pointer"><strong><i
+                        class="fas fa-edit"></i>
+                    Edit</strong></a>&nbsp;&nbsp;&nbsp;</span> <span *ngIf="stp.mode == 'vle_unpaid'" class="lead" style="font-weight: bolder;"><a href="javascript:void(0)" class="text-right text-danger hide-print-chart" [routerLink]="['/premium-charts']"><i class="fas fa-print"></i> Print Chart For Your District With Center Name</a></span>
     </div>
-</div>
-<div *ngIf="!isSetupRequired()">
-    <div class="container mt-4 mb-3">
+
+
+
+    <div class="container mt-4 mb-3 hide-for-print">
         <form class="row" [formGroup]="calcForm" action="javascript:void(0)" (submit)="addCrop()">
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="form-group">
                     <label for="crops">Select Crop</label>
-                    <select (change)="calculate()" class="form-control" formControlName="crops" name="crops" id="crops">
+                    <select tabindex="1" (change)="calculate()" class="form-control" formControlName="crops"
+                        name="crops" id="crops">
                         <option value="" disabled>Select Crop</option>
                         <option *ngFor="let crop of crops; index as i" value="{{i}}">{{crop.crop_name}}</option>
                     </select>
-                    <small id="helpId" class="form-text text-muted">Help text</small>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="form-group">
                     <label for="area">Enter Area (Hectors)</label>
-                    <input (change)="calculate()" (keypress)="calculate()" (keyup)="calculate()" type="text" class="form-control" formControlName="area" name="area" id="area"
-                        aria-describedby="areaHelp" placeholder="Area In Hectors">
-                    <small id="areaHelp" class="form-text text-muted">Help text</small>
+                    <input tabindex="2" (change)="calculate()" (keypress)="calculate()" (keyup)="calculate()"
+                        type="number" step="0.01" class="form-control" formControlName="area" name="area" id="area"
+                        placeholder="Area In Hectors">
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="form-group">
-                    <label for="premiumAmt">Farmer Premium Amount</label>
-                    <input type="text" disabled formControlName="premiumAmt" class="form-control" name="premiumAmt" id="premiumAmt"
-                        aria-describedby="premiumAmtHelp" placeholder="">
-                    <small id="premiumAmtHelp" class="form-text text-muted">Help text</small>
+                    <label for="premiumAmt">Farmer Share</label>
+                    <input type="text" disabled formControlName="premiumAmt" class="form-control" name="premiumAmt"
+                        id="premiumAmt" placeholder="Calculator will tell">
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div *ngIf="stp.mode == 'farmer'" class="col-sm-12 col-md-6 col-lg-3">
                 <div class="form-group">
                     <label for="insuredAmt">Insured Amount</label>
                     <input type="text" disabled formControlName="insuredAmt" class="form-control" name="insuredAmt"
-                        id="insuredAmt" aria-describedby="insuredAmtHelp" placeholder="">
-                    <small id="insuredAmtHelp" class="form-text text-muted">Help text</small>
+                        id="insuredAmt" placeholder="">
                 </div>
             </div>
 
-            <div class="col-6">
-                <button (click)="reset()" type="button" class="btn btn-lg btn-danger">Clear</button>
-            </div>
-            <div class="col-6 text-right">
-                <button type="submit" class="btn btn-lg btn-primary">Add Crop</button>
+            <!--div class="col-6">
+                    <button tabindex="4" (click)="reset()" type="button" class="btn btn-lg btn-danger">Clear</button>
+                </div-->
+            <div class=""
+                [ngClass]="{'col-12': stp.mode == 'farmer', 'col-sm-12 col-md-6 col-lg-3 text-right': stp.mode == 'vle_unpaid'}">
+                <button tabindex="3" type="submit"
+                    [ngClass]="{'btn-right': stp.mode == 'farmer' ,'width-100': stp.mode == 'vle_unpaid'}"
+                    class="btn btn-lg btn-primary">Add Crop</button>
             </div>
         </form>
     </div>
 
-</div>
-<div *ngIf="!isSetupRequired() && selectedCrops.length >= 1">
-    <div class="container table-responsive">
 
-        <table class="table table-bordered table-inverse">
-            <thead class="thead-inverse">
-                <tr>
-                    <th>Sr. No.</th>
-                    <th>Crop Name</th>
-                    <th>Area (Hectors)</th>
-                    <th>Farmer Share</th>
-                    <th>Government Share</th>
-                    <th>Total Premium</th>
-                    <th>Insured Amount</th>
-                    <th>Delete</th>
-                </tr>
-            </thead>
-            <tbody>
-                
-                <tr *ngFor="let crop of selectedCrops; index as i;">
-                    <td scope="row">{{ i+1 }}</td>
-                    <td>{{crop.crop_name}}</td> 
-                    <td class="text-center">{{(areas[i]).toFixed(2)}}</td> 
-                    <td class="text-center">{{(areas[i] * crop.insurance_pricing.premium_farmer_share).toFixed(2)}}</td>
-                    <td class="text-center">{{(areas[i] * crop.insurance_pricing.premium_gov_share).toFixed(2)}}</td>
-                    <td class="text-center">{{(areas[i] * (crop.insurance_pricing.premium_farmer_share + crop.insurance_pricing.premium_gov_share)).toFixed(2)}}</td>
-                    <td class="text-center">{{(areas[i] * crop.insurance_pricing.sum_insured).toFixed(2)}}</td>
-                    <td (click)="removeCrop(i)" class="text-center" style="cursor:pointer;"><i class="fa fa-trash text-danger"></i></td>
-                </tr>
-                
-                <tr>
-                    <td colspan="2" class="text-center"><strong>Total Crop<span *ngIf="total.crops > 1">s</span> : {{total.crops}}</strong></td>
-                    <td class="text-center">{{ (total.area).toFixed(2) }}</td>
-                    <td class="text-center">{{ (total.farmer_share).toFixed(2) }}</td>
-                    <td class="text-center">{{ (total.gov_share).toFixed(2) }}</td>
-                    <td class="text-center">{{ (total.premium).toFixed(2) }}</td>
-                    <td class="text-center">{{ (total.insured_amt).toFixed(2) }}</td>
-                </tr>
-            </tbody>
+    <div class="container hide-for-print" *ngIf="stp.mode == 'vle_unpaid'">
+        <form action="javascript:void(0)" [formGroup]="vleCalcForm" class="row">
+            <div class="form-group col-sm-12 col-md-6 col-lg-3">
+                <label for="name">Farmer Name</label>
+                <input tabindex="4" type="text" class="form-control" formControlName="name" name="name" id="name"
+                    placeholder="Farmer Name">
+            </div>
+            <div class="form-group col-sm-12 col-md-6 col-lg-3">
+                <label for="village">Farmer Village</label>
+                <input tabindex="5" type="text" class="form-control" formControlName="village" name="village"
+                    id="village" placeholder="Farmer Village">
+            </div>
+            <div class="form-group col-sm-12 col-md-6 col-lg-3">
+                <label for="paid_amt">Amount Paid</label>
+                <input tabindex="6" type="number" value="0" (change)="vleForm()" (keyup)="vleForm()" step="0.01"
+                    class="form-control" formControlName="paid_amt" name="paid_amt" id="paid_amt"
+                    placeholder="Amount Paid By Farmer">
+            </div>
+            <div class="form-group col-sm-12 col-md-6 col-lg-3">
+                <label for="pending_amt">Amount Pending</label>
+                <input type="number" value="0" step="0.01" class="form-control" disabled formControlName="pending_amt"
+                    name="pending_amt" id="pending_amt" placeholder="Amount Pending">
+            </div>
+        </form>
+    </div>
+    <div class="print container">
+        <div *ngIf="stp.mode == 'vle_unpaid' && selectedCrops.length >= 1" class="row py-2">
+            <div class="col-6">
+                <h4>Total Farmer Share : {{ total.farmer_share.toFixed(2) }}</h4>
+            </div>
+            <div class="col-6 text-right">
+                <button type="button" class="btn btn-primary hide-for-print" (click)="printForVle()"><i
+                        class="fas fa-print"></i> Print</button>
+            </div>
+        </div>
+
+        <table *ngIf="selectedCrops.length >= 1 && vleFormComplete()" class="table table-bordered">
+            <tr>
+                <th>Farmer Name</th>
+                <td colspan="2">{{vleCalcForm.controls.name.value}}</td>
+                <th>Village</th>
+                <td>{{vleCalcForm.controls.village.value}}</td>
+            </tr>
+            <tr>
+                <th style="width: 20%;">Total Crops : {{total.crops}}</th>
+                <th style="width: 20%;">Paid Amount</th>
+                <td style="width: 20%;">{{vleCalcForm.controls.paid_amt.value.toFixed(2)}}</td>
+                <th style="width: 20%;">Pending Amount</th>
+                <td style="width: 20%;">{{vleCalcForm.controls.pending_amt.value.toFixed(2)}}</td>
+            </tr>
         </table>
+    </div>
+    <div *ngIf="selectedCrops.length >= 1" class="print">
+        <div class="container table-responsive">
+            <table class="table table-bordered table-inverse">
+                <thead class="thead-inverse">
+                    <tr class="bg-dark text-light">
+                        <th class="text-center">Sr. No.</th>
+                        <th>Crop Name</th>
+                        <th class="text-center">Area (Hectors)</th>
+                        <th class="text-center">Farmer Share</th>
+                        <th class="text-center" *ngIf="stp.mode == 'farmer'">Government Share</th>
+                        <th class="text-center" *ngIf="stp.mode == 'farmer'">Total Premium</th>
+                        <th class="text-center" *ngIf="stp.mode == 'farmer'">Insured Amount</th>
+                        <th class="text-center">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr *ngFor="let crop of selectedCrops; index as i;">
+                        <td class="text-center" scope="row">{{ i+1 }}</td>
+                        <td>{{crop.crop_name}}</td>
+                        <td class="text-center">{{(areas[i]).toFixed(2)}}</td>
+                        <td class="text-center">{{(areas[i] * crop.insurance_pricing.premium_farmer_share).toFixed(2)}}
+                        </td>
+                        <td class="text-center" *ngIf="stp.mode == 'farmer'">
+                            {{(areas[i] * crop.insurance_pricing.premium_gov_share).toFixed(2)}}
+                        </td>
+                        <td class="text-center" *ngIf="stp.mode == 'farmer'">
+                            {{(areas[i] * (crop.insurance_pricing.premium_farmer_share + crop.insurance_pricing.premium_gov_share)).toFixed(2)}}
+                        </td>
+                        <td class="text-center" *ngIf="stp.mode == 'farmer'">
+                            {{(areas[i] * crop.insurance_pricing.sum_insured).toFixed(2)}}</td>
+                        <td class="text-center" (click)="removeCrop(i)" class="text-center" style="cursor:pointer;"><i
+                                class="fa fa-trash text-danger"></i></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="text-center"><strong>Total Crop<span *ngIf="total.crops > 1">s</span> :
+                                {{total.crops}}</strong></td>
+                        <td class="text-center">{{ (total.area).toFixed(2) }}</td>
+                        <td class="text-center">{{ (total.farmer_share).toFixed(2) }}</td>
+                        <td class="text-center" *ngIf="stp.mode == 'farmer'">{{ (total.gov_share).toFixed(2) }}</td>
+                        <td class="text-center" *ngIf="stp.mode == 'farmer'">{{ (total.premium).toFixed(2) }}</td>
+                        <td class="text-center" *ngIf="stp.mode == 'farmer'">{{ (total.insured_amt).toFixed(2) }}</td>
+                        <td (click)="reset()" class="text-center text-danger" style="cursor: pointer"><strong><u>Delete
+                                    All</u></strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container print mt-2">
+        <p class="lead text-center" style="font-weight: bolder; text-decoration: underline;">Proudly Powered By Kekarjawalekar Technologies - Crop Insurance Calculator V2 2019</p>
     </div>
 </div>

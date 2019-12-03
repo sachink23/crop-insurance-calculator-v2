@@ -10,7 +10,36 @@
     font-family: 'Bree Serif', serif;
     font-style: italic;
 }
-.card-custom {
-    width: 97%;
-    min-height: 450px;
+@media (min-width: 670px) {
+    .card-custom {
+        width: 600px;
+    }
 }
+.step-2 {
+    min-height: 500px;
+}
+@media (min-height: 600px) {
+    .step-2 {
+        min-height: 500px;
+    }
+}
+@media (min-height: 700px) {
+    .step-2 {
+        min-height: 600px;
+    }
+}
+@media (min-height: 800px) {
+    .step-2 {
+        min-height: 700px;
+    }
+}
+@media (min-height: 900px) {
+    .step-2 {
+        min-height: 800px;
+    }
+}
+@media (min-width:965px) {
+    .setup-body {
+      min-height: 500px;
+    }
+  }

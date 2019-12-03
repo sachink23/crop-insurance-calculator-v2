@@ -1,12 +1,12 @@
-<div *ngIf="activeStep == 1" class="container-fluid">
+<div *ngIf="activeStep == 1" class="setup-body container-fluid">
 
     <h1 class="title-page mt-2 text-center">Select Mode</h1>
     <hr class="text-light" />
 
     <div class="row mb-3">
 
-        <div (click)="setFarmerMode()" class="col-sm-12 offset-sm-0 col-md-6 offset-sm-0 col-lg-4 offset-lg-2">
-            <div class="card text-center mx-3 my-3">
+        <div (click)="setFarmerMode()"  class="col-sm-12 offset-sm-0 col-md-6 offset-sm-0 col-lg-4 offset-lg-2">
+            <div style="cursor: pointer;" class="card text-center mx-3 my-3">
                 <img class="card-img-top" src="assets/stock/farmer-with-tractor.png" alt="Farmer">
                 <div class="card-body">
                     <h5 class="card-title title">Farmer Mode</h5>
@@ -18,8 +18,8 @@
             </div>
         </div>
 
-        <div (click)="setVleUnpaidMode()" class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card text-center mx-3 my-3">
+        <div (click)="setVleUnpaidMode()"  class="col-sm-12 col-md-6 col-lg-4">
+            <div style="cursor: pointer;" class="card text-center mx-3 my-3">
                 <img class="card-img-top" src="assets/branding/csc-logo.jpg" alt="VLE">
                 <div class="card-body">
                     <h5 class="card-title title">CSC VLE Mode</h5>
@@ -33,7 +33,7 @@
 
     </div>
 </div>
-<div *ngIf="activeStep == 2" class="container-fluid">
+<div *ngIf="activeStep == 2" class="setup-body step-2 container-fluid">
     <h1 class="title-page mt-2 text-center">Step 2</h1>
     <p class="text-muted text-center">The options selected in this step will be remebered by the app, so that you can start
         working directly.</p>
@@ -92,9 +92,5 @@
                 </li>
             </ul>
         </form>
-        <!--div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-        </div-->
     </div>
 </div>

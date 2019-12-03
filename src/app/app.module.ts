@@ -8,7 +8,6 @@ import { FooterComponent } from './components/ui-elements/footer/footer.componen
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HomeComponent } from './components/pages/home/home.component';
-import { BlogComponent } from './components/pages/blog/blog.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { FeaturedProductsComponent } from './components/pages/featured-products/featured-products.component';
@@ -20,21 +19,16 @@ import { FeaturesComponent } from './components/ui-elements/features/features.co
 import { AchievementStatsComponent } from './components/ui-elements/achievement-stats/achievement-stats.component';
 import { TeamComponent } from './components/ui-elements/team/team.component';
 import { HighlightComponent } from './components/ui-elements/highlight/highlight.component';
-import { BlogPostComponent } from './components/ui-elements/blog-post/blog-post.component';
 import { PwaUpdateService } from './services/update/pwa-update.service';
 import { SeoService } from './services/seo/seo.service';
-import { FollowOurBlogComponent } from './components/ui-elements/follow-our-blog/follow-our-blog.component';
 import { CalculatorService } from './services/calculator/calculator.service';
-import { BlogService } from './services/blog/blog.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { VleModeComponent } from './components/calculator/modes/vle-mode/vle-mode.component';
-import { FarmerModeComponent } from './components/calculator/modes/farmer-mode/farmer-mode.component';
 import { Seasons } from './data/seasons/seasons';
 import { SetupComponent } from './components/calculator/setup/setup.component';
 import { CalculatorSetupService } from './services/calculator/setup/calculator-setup.service';
 import { LocalStorageService } from './services/local-storage/local-storage.service';
-import { CalculatorHeaderComponent } from './components/calculator/calculator-header/calculator-header.component';
 import { BasicComponent } from './components/calculator/basic/basic.component';
+import { ChartComponent } from './components/pages/chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +36,6 @@ import { BasicComponent } from './components/calculator/basic/basic.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    BlogComponent,
     AboutComponent,
     ContactComponent,
     FeaturedProductsComponent,
@@ -54,13 +47,9 @@ import { BasicComponent } from './components/calculator/basic/basic.component';
     AchievementStatsComponent,
     TeamComponent,
     HighlightComponent,
-    BlogPostComponent,
-    FollowOurBlogComponent,
-    VleModeComponent,
-    FarmerModeComponent,
     SetupComponent,
-    CalculatorHeaderComponent,
     BasicComponent,
+    ChartComponent,
   ],
   imports: [
     BrowserModule,
@@ -75,7 +64,6 @@ import { BasicComponent } from './components/calculator/basic/basic.component';
     Title,
     Meta,
     CalculatorService,
-    BlogService,
     PwaUpdateService,
     SeoService,
     CalculatorSetupService,

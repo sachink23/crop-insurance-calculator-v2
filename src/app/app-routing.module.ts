@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/pages/home/home.component';
 import { CalculatorComponent } from './components/pages/calculator/calculator.component';
-import { BlogComponent } from './components/pages/blog/blog.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { FeaturedProductsComponent } from './components/pages/featured-products/featured-products.component';
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
+import { ChartComponent } from './components/pages/chart/chart.component';
 
 
 const routes: Routes = [
@@ -17,10 +17,6 @@ const routes: Routes = [
   { 
     path: 'calculator', 
     component: CalculatorComponent 
-  },
-  { 
-    path: 'blog', 
-    component: BlogComponent 
   },
   {
     path: 'about',
@@ -37,6 +33,10 @@ const routes: Routes = [
   {
     path: 'privacy-and-terms',
     component: PrivacyPolicyComponent
+  },
+  {
+    path: 'premium-charts',
+    component: ChartComponent
   }
 
 ];

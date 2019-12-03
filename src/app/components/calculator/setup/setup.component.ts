@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CalculatorSetupService } from 'src/app/services/calculator/setup/calculator-setup.service';
 import { CalculatorService } from 'src/app/services/calculator/calculator.service';
-import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-calculator-setup',
@@ -66,6 +67,10 @@ export class SetupComponent implements OnInit {
       this.defs.state_id = this.selectionForm.controls.state.value
       this.defs.district_id = this.selectionForm.controls.district.value
       this.setup.saveSetup(this.defs.mode, this.defs.season_id, this.defs.state_id, this.defs.district_id)
+      Swal.fire({
+        title: "Setup Successful",
+        icon: "success",
+      })
     }
   }
 
