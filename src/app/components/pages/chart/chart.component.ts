@@ -4,6 +4,7 @@ import Swal from 'sweetalert2';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { SeoService } from 'src/app/services/seo/seo.service';
+import { AffiliateShowService } from 'src/app/services/affiliate/affiliate-show.service';
 @Component({
   selector: 'app-chart',
   templateUrl: './chart.component.html',
@@ -20,10 +21,11 @@ export class ChartComponent implements OnInit {
   district_name_mr
   insurance_company_details: { name: string; name_mr: string; toll_free_number: string; email: string; website: string; headquarter_address: string; headquarter_address_mr: string; }
   crops: { crop_key: string; crop_name: string; crop_name_mr: string; crop_category: string; insurance_pricing: { premium_farmer_share: number; premium_gov_share: number; sum_insured: number; }; }[];
-  constructor(private seo: SeoService, private route: Router, private builder: FormBuilder, private calc: CalculatorService) { }
+  constructor(private seo: SeoService, private route: Router, private builder: FormBuilder, private calc: CalculatorService, private aff:AffiliateShowService) { }
 
   ngOnInit() {
     scrollTo(0,0)
+    this.aff.hide()
     this.seo.defaultPageSeo("Chart Maker")
     this.vleDetails = this.builder.group({
       centerName: ['', [

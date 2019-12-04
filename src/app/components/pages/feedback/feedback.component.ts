@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AffiliateShowService } from 'src/app/services/affiliate/affiliate-show.service';
 
 @Component({
   selector: 'app-feedback',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeedbackComponent implements OnInit {
 
-  constructor() { }
+  constructor(private aff:AffiliateShowService) { }
 
   ngOnInit() {
+    this.aff.hide()
   }
 
 }

@@ -32,6 +32,7 @@ import { FeedbackComponent } from './components/pages/feedback/feedback.componen
 import { FeaturedProductsComponent } from './components/ui-elements/featured-products/featured-products.component';
 import { AffiliateHorizontalComponent } from './components/ui-elements/affiliate-horizontal/affiliate-horizontal.component';
 import { TutorialVideoComponent } from './components/ui-elements/tutorial-video/tutorial-video.component';
+import { AffiliateShowService } from './services/affiliate/affiliate-show.service';
 
 @NgModule({
   declarations: [
@@ -75,6 +76,7 @@ import { TutorialVideoComponent } from './components/ui-elements/tutorial-video/
     SeoService,
     CalculatorSetupService,
     Seasons,
+    AffiliateShowService
   ],
   bootstrap: [AppComponent]
 })
