@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FeaturedProductsComponent } from './featured-products.component';
+import { ToolsForVleComponent } from './tools-for-vle.component';
 
-describe('FeaturedProductsComponent', () => {
-  let component: FeaturedProductsComponent;
-  let fixture: ComponentFixture<FeaturedProductsComponent>;
+describe('ToolsForVleComponent', () => {
+  let component: ToolsForVleComponent;
+  let fixture: ComponentFixture<ToolsForVleComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FeaturedProductsComponent ]
+      declarations: [ ToolsForVleComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FeaturedProductsComponent);
+    fixture = TestBed.createComponent(ToolsForVleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

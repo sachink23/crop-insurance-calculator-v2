@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
   constructor(private seo:SeoService) { }
 
   ngOnInit() {
+    scrollTo(0,0)
     this.seo.defaultPageSeo(this.title)
   }
 }

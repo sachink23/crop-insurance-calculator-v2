@@ -32,6 +32,7 @@ export class BasicComponent implements OnInit {
   constructor(public calc: CalculatorService, private builder: FormBuilder) { }
   
   ngOnInit() {
+    scrollTo(0,0)
     this.total = {
       crops: 0,
       area : 0,

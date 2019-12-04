@@ -1,6 +1,3 @@
-/*
-    cache-control: must-revalidate
-
 /ngsw.json
   
   cache-control: max-age=0,no-cache,must-revalidate

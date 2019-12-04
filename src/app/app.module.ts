@@ -10,7 +10,6 @@ import { environment } from '../environments/environment';
 import { HomeComponent } from './components/pages/home/home.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
-import { FeaturedProductsComponent } from './components/pages/featured-products/featured-products.component';
 import { CalculatorComponent } from './components/pages/calculator/calculator.component';
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { TestimonialsComponent } from './components/ui-elements/testimonials/testimonials.component';
@@ -26,9 +25,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Seasons } from './data/seasons/seasons';
 import { SetupComponent } from './components/calculator/setup/setup.component';
 import { CalculatorSetupService } from './services/calculator/setup/calculator-setup.service';
-import { LocalStorageService } from './services/local-storage/local-storage.service';
 import { BasicComponent } from './components/calculator/basic/basic.component';
 import { ChartComponent } from './components/pages/chart/chart.component';
+import { ToolsForVleComponent } from './components/pages/tools-for-vle/tools-for-vle.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +37,6 @@ import { ChartComponent } from './components/pages/chart/chart.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    FeaturedProductsComponent,
     CalculatorComponent,
     PrivacyPolicyComponent,
     TestimonialsComponent,
@@ -50,6 +48,7 @@ import { ChartComponent } from './components/pages/chart/chart.component';
     SetupComponent,
     BasicComponent,
     ChartComponent,
+    ToolsForVleComponent,
   ],
   imports: [
     BrowserModule,
@@ -67,8 +66,6 @@ import { ChartComponent } from './components/pages/chart/chart.component';
     PwaUpdateService,
     SeoService,
     CalculatorSetupService,
-    LocalStorageService,
-    /*Seasons */
     Seasons,
   ],
   bootstrap: [AppComponent]

@@ -4,9 +4,9 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { CalculatorComponent } from './components/pages/calculator/calculator.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
-import { FeaturedProductsComponent } from './components/pages/featured-products/featured-products.component';
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ChartComponent } from './components/pages/chart/chart.component';
+import { ToolsForVleComponent } from './components/pages/tools-for-vle/tools-for-vle.component';
 
 
 const routes: Routes = [
@@ -27,16 +27,16 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: 'affiliate-shop',
-    component: FeaturedProductsComponent
-  },
-  {
     path: 'privacy-and-terms',
     component: PrivacyPolicyComponent
   },
   {
     path: 'premium-charts',
     component: ChartComponent
+  },
+  {
+    path: 'business-development-tools',
+    component: ToolsForVleComponent
   }
 
 ];

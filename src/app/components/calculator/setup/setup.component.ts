@@ -22,6 +22,7 @@ export class SetupComponent implements OnInit {
   constructor(public setup:CalculatorSetupService, public calc:CalculatorService, private builder: FormBuilder) { }
 
   ngOnInit() {
+    scrollTo(0,0)
     this.setup.clearSetup()
     this.activeStep = 1
     this.selectionForm = this.builder.group({

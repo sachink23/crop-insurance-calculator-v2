@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+.title {font-family: 'Bree Serif', serif;}
+.form-contact {
+    width: 100%;
+    max-width: 460px;
+    padding: 15px;
+    margin: auto;
+  }
+  small {
+    text-transform: capitalize;
+  }
+  .form-control, .is-valid, .is-invalid {
+    border-width: 1.5px;
+    height: 3rem;
+}
+.form-control:focus {   
+    border-color: #914EB7;
+}
+.is-invalid:focus, .is-valid:focus, .form-control:focus {   
+    border-width: 1.5px;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: 0 none;
+}

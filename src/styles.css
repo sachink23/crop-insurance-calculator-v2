@@ -20,5 +20,8 @@ html, body
     .print {
         display: '';
     }
+    @page {
+        size: auto;
+    }
     
 }

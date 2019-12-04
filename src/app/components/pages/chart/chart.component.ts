@@ -23,6 +23,7 @@ export class ChartComponent implements OnInit {
   constructor(private seo: SeoService, private route: Router, private builder: FormBuilder, private calc: CalculatorService) { }
 
   ngOnInit() {
+    scrollTo(0,0)
     this.seo.defaultPageSeo("Chart Maker")
     this.vleDetails = this.builder.group({
       centerName: ['', [
