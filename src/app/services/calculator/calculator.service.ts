@@ -18,6 +18,7 @@ export class CalculatorService {
   getSeasonName(seasonArrayIndex) {
     return this.data.data[seasonArrayIndex].season_name
   }
+
   getStateName(seasonArrayIndex, stateArrayIndex) {
     return this.data.data[seasonArrayIndex].states[stateArrayIndex].state_name
   }
@@ -29,6 +30,39 @@ export class CalculatorService {
   }
   clearSetup() {
     this.setup.clearSetup()
+  }
+  getStates(seasonArrayIndex) {
+    var states = []
+    var i =0
+    this.data.data[seasonArrayIndex].states.forEach(state => {
+      states[i] = {
+        state_array_index: i,
+        state_id: state.state_id,
+        state_name: state.state_name,
+        state_name_mr: state.state_name_mr
+      } 
+      i++ 
+    })
+    return states
+  }
+  getInsuranceCompanyDetails(seasonArrayIndex, stateArrayIndex, districtArrayIndex) {
+    return this.data.data[seasonArrayIndex].states[stateArrayIndex].districts[districtArrayIndex].insurance_company_details
+  }
+  getDistricts(seasonArrayIndex, stateArrayIndex) {
+    var districts = []
+    var i =0
+    this.data.data[seasonArrayIndex].states[stateArrayIndex].districts.forEach(district => {
+      districts[i] = {
+        district_array_index: i,
+        district_id: district.district_id,
+        district_name: district.district_name,
+        district_name_mr: district.district_name_mr
+      }
+      i++ 
+    })
+   
+
+    return districts
   }
   getSeasons() {
     var seasons = []

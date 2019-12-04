@@ -1,0 +1,28 @@
+
+label {
+    font-weight: bolder;
+}
+input, textarea {
+    letter-spacing: 1.2px;
+}
+.table-row-font {
+    font-size: 20px;
+}
+.bg-card {
+    background: lightgreen;
+}
+tr,th {
+    vertical-align: middle;
+}
+h1 {
+    text-decoration: underline;
+}
+@media print {
+    @page {
+        size: A4 landscape;
+      }
+    .page-a4-landscape {
+        width: 297mm;
+        height: 210mm;
+    }
+}

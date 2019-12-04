@@ -1,1 +1,93 @@
-<p>chart works!</p>
+<div *ngIf="!formSubmited" class="container my-2">
+    <div class="card  bg-card">
+        <form action="javascript:void(0)" [formGroup]="vleDetails" (submit)="submitForm()" class="card-body">
+            <h4 class="card-title">Enter Details to Print Charts</h4>
+            <p class="card-text">You can stick these charts in your CSC center for advertisement, this charts will be
+                created in marathi language.</p>
+            <hr class="text-muted" />
+            <div class="form-group">
+                <label for="centerName">Enter Center Name</label>
+                <input type="text" class="form-control form-control-lg" name="centerName" id="centerName"
+                    formControlName="centerName" aria-describedby="helpId" placeholder="Enter Center Name">
+            </div>
+            <div class="form-group">
+                <label for="mobile">Enter Mobile Number </label>
+                <input type="number" class="form-control form-control-lg" name="mobile" id="mobile"
+                    formControlName="mobile" aria-describedby="helpId" placeholder="Enter Mobile Number">
+            </div>
+            <div class="form-group">
+                <label for="address">Enter Address</label>
+                <textarea class="form-control form-control-lg" name="address" id="address" formControlName="address"
+                    rows="2" placeholder="Enter Center Address"></textarea>
+            </div>
+            <div class="text-right">
+                <button type="submit" class="btn btn-warning btn-lg" style="letter-spacing: 2px;"><i
+                        class="fas fa-print"></i> Create Prints</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div *ngIf="formSubmited" class="container-fluid text-center hide-for-print">
+    <p class="text-center lang-mr hide-for-print">चांगल्या प्रतीच्या प्रिंट साठी पेज सेटिंग मध्ये Landscape हा ऑपशन निवडा.</p>
+    <button type="button" class="btn hide-for-print btn-primary btn-lg" onclick="window.print() "><i class="fas fa-print"></i> Print</button>
+</div> 
+<div *ngIf="formSubmited" class="page-a4-landscape">
+
+    <div class="container-fluid my-2">
+        <table class="table table-bordered text-center">
+            <thead class="lang-mr">
+                <tr>
+                    <th colspan="6">
+                        <h1 class="text-center py-2"> पीकविमा रेट चार्ट - {{season_name_mr}} </h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="6"><h2 class="text-center py-2"> राज्य : {{state_name_mr}} | जिल्हा
+                        : {{ district_name_mr }} </h2></th>
+                </tr>
+                <tr class="table-row-font">
+                    <th rowspan="2">#</th>
+                    <th rowspan="2">पीकाचे नाव</th>
+                    <th colspan="3">प्रिमीयम</th>
+                    <th rowspan="2">वीमा सुरक्षा <br />(प्रती हेक्टर)</th>
+                </tr>
+                <tr class="table-row-font">
+                    <th>शेतकरी हिस्सा <br />(प्रती हेक्टर)</th>
+                    <th>शासनाचा हिस्सा <br />(प्रती हेक्टर)</th>
+                    <th>एकूण <br />(प्रती हेक्टर)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-row-font" *ngFor="let crop of crops; index as i;">
+                    <td scope="row"> {{i+1}} </td>
+                    <td> {{crop.crop_name_mr}} </td>
+                    <td> {{crop.insurance_pricing.premium_farmer_share}} </td>
+                    <td> {{crop.insurance_pricing.premium_gov_share}} </td>
+                    <td> {{crop.insurance_pricing.premium_gov_share + crop.insurance_pricing.premium_farmer_share}}
+                    </td>
+                    <td> {{crop.insurance_pricing.sum_insured}} </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <div class="card text-center  my-2">
+                            <div class="card-header lang-mr">
+                                <h2>आपला वीमा भरण्यासाठी आजच संपर्क करा</h2>
+                            </div>
+                            <div class="card-body lang-mr">
+                                <h4 class="card-title mt-2" style="font-size: 25px;">{{vle['name']}}</h4>
+                                <p class="lead my-2" style="font-size: 22px;">{{vle['address']}}</p>
+                                <p class="lead mb-2" style="font-size: 22px;">मोबाईल नंबर : {{vle['mobile']}}</p>
+                            </div>
+                            <div class="card-footer lang-mr">
+                                <span class="text-left" style="float: left;">Proudly Powered By Crop Insurance Calculator - Kekarjawalekar Technologies<br/><a href="https://www.kekarjawalekar.com" class="py-2" target="_blank">https://www.kekarjawalekar.com</a></span><img src="assets/branding/kt-rect.png" class="text-right" style="float: right;">
+                                
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
