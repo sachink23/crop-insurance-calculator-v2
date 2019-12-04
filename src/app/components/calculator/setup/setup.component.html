@@ -4,8 +4,19 @@
     <hr class="text-light" />
 
     <div class="row mb-3">
-
-        <div (click)="setFarmerMode()"  class="col-sm-12 offset-sm-0 col-md-6 offset-sm-0 col-lg-4 offset-lg-2">
+        <div (click)="setVleUnpaidMode()" class=" col-sm-12 offset-sm-0 col-md-6 offset-sm-0 col-lg-4 offset-lg-2">
+            <div style="cursor: pointer;" class="card text-center mx-3 my-3">
+                <img class="card-img-top" src="assets/stock/computer.jpg" alt="Computer">
+                <div class="card-body">
+                    <h5 class="card-title title">CSC VLE Mode</h5>
+                    <p class="card-text">If you are a CSC VLE and work on pmfby portal for crop insurance policies, this
+                        mode will help you for more detailed calculations.</p>
+                    <a href="javascript:void(0)" class="text-center card-link">CSC VLE Mode <i
+                            class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div (click)="setFarmerMode()" class="col-sm-12 col-md-6 col-lg-4">
             <div style="cursor: pointer;" class="card text-center mx-3 my-3">
                 <img class="card-img-top" src="assets/stock/farmer-with-tractor.png" alt="Farmer">
                 <div class="card-body">
@@ -18,24 +29,14 @@
             </div>
         </div>
 
-        <div (click)="setVleUnpaidMode()"  class="col-sm-12 col-md-6 col-lg-4">
-            <div style="cursor: pointer;" class="card text-center mx-3 my-3">
-                <img class="card-img-top" src="assets/branding/csc-logo.jpg" alt="VLE">
-                <div class="card-body">
-                    <h5 class="card-title title">CSC VLE Mode</h5>
-                    <p class="card-text">If you are a CSC VLE and work on pmfby portal for crop insurance policies, this
-                        mode will help you for more detailed calculations.</p>
-                    <a href="javascript:void(0)" class="text-center card-link">CSC VLE Mode <i
-                            class="fa fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
+
 
     </div>
 </div>
 <div *ngIf="activeStep == 2" class="setup-body step-2 container-fluid">
     <h1 class="title-page mt-2 text-center">Step 2</h1>
-    <p class="text-muted text-center">The options selected in this step will be remebered by the app, so that you can start
+    <p class="text-muted text-center">The options selected in this step will be remebered by the app, so that you can
+        start
         working directly.</p>
     <hr class="text-light" />
     <div class="card card-custom mx-auto my-3">
@@ -75,11 +76,13 @@
                     class="list-group-item">
                     <div class="form-group">
                         <label for="district" class="form-label"
-                            [ngClass]="{'text-danger': checkElement(selectionForm.controls.district)}">Select District</label>
+                            [ngClass]="{'text-danger': checkElement(selectionForm.controls.district)}">Select
+                            District</label>
                         <select class="form-control" name="district" formControlName="district" id="district"
                             [ngClass]="{'is-invalid': checkElement(selectionForm.controls.district)}">
                             <option value="">Select District</option>
-                            <option *ngFor="let district of calc.getDistrictsForSeasonAndState(selectionForm.controls.season.value, selectionForm.controls.state.value)"
+                            <option
+                                *ngFor="let district of calc.getDistrictsForSeasonAndState(selectionForm.controls.season.value, selectionForm.controls.state.value)"
                                 value="{{district.dist_array_index}}">
                                 {{district.dist_name}}</option>
                         </select>
@@ -87,7 +90,8 @@
                             Valid District</small>
                     </div>
                 </li>
-                <li *ngIf="!selectionForm.controls.season.invalid && !selectionForm.controls.state.invalid && !selectionForm.controls.district.invalid" class="list-group-item text-right">
+                <li *ngIf="!selectionForm.controls.season.invalid && !selectionForm.controls.state.invalid && !selectionForm.controls.district.invalid"
+                    class="list-group-item text-right">
                     <button type="submit" class="btn btn-warning my-2 mx-auto text-right btn-lg">Save Selection</button>
                 </li>
             </ul>

@@ -28,6 +28,10 @@ import { CalculatorSetupService } from './services/calculator/setup/calculator-s
 import { BasicComponent } from './components/calculator/basic/basic.component';
 import { ChartComponent } from './components/pages/chart/chart.component';
 import { ToolsForVleComponent } from './components/pages/tools-for-vle/tools-for-vle.component';
+import { FeedbackComponent } from './components/pages/feedback/feedback.component';
+import { FeaturedProductsComponent } from './components/ui-elements/featured-products/featured-products.component';
+import { AffiliateHorizontalComponent } from './components/ui-elements/affiliate-horizontal/affiliate-horizontal.component';
+import { TutorialVideoComponent } from './components/ui-elements/tutorial-video/tutorial-video.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +53,10 @@ import { ToolsForVleComponent } from './components/pages/tools-for-vle/tools-for
     BasicComponent,
     ChartComponent,
     ToolsForVleComponent,
+    FeedbackComponent,
+    FeaturedProductsComponent,
+    AffiliateHorizontalComponent,
+    TutorialVideoComponent,
   ],
   imports: [
     BrowserModule,

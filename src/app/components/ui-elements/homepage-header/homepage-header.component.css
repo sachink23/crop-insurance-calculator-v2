@@ -23,10 +23,10 @@
     color: white; /* Add a text color */
     padding: 14px 28px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
-    background-color: #ff9800;
+    background-color: #6b6ab9;
     letter-spacing: 1.3px;
     font-weight: bolder;
 }
 .call-to-action-btn:hover {
-    background: #e68a00
+    background: #b60202
 }

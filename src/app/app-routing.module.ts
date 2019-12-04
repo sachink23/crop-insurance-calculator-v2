@@ -7,6 +7,7 @@ import { ContactComponent } from './components/pages/contact/contact.component';
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { ChartComponent } from './components/pages/chart/chart.component';
 import { ToolsForVleComponent } from './components/pages/tools-for-vle/tools-for-vle.component';
+import { FeedbackComponent } from './components/pages/feedback/feedback.component';
 
 
 const routes: Routes = [
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path: 'business-development-tools',
     component: ToolsForVleComponent
+  },
+  {
+    path: 'feedback',
+    component: FeedbackComponent
   }
 
 ];

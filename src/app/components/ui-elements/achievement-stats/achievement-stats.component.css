@@ -1,5 +1,9 @@
-  /* Style the counter cards */
-
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+.title {
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    font-weight: bolder;
+}
   .card-counter {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;

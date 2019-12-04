@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1575458617705,
+  "timestamp": 1575480303767,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,15 +10,15 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.94cca5694bb76f4ed78f.js",
-        "/main-es5.94cca5694bb76f4ed78f.js",
+        "/main-es2015.98e7505f5d88e998ce10.js",
+        "/main-es5.98e7505f5d88e998ce10.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
         "/runtime-es2015.edb2fcf2778e7bf1d426.js",
         "/runtime-es5.edb2fcf2778e7bf1d426.js",
         "/scripts.dda2d1846184eca6c160.js",
-        "/styles.65391bcf1ea4f881dddb.css"
+        "/styles.69cc3410411a5ab4f0e5.css"
       ],
       "patterns": []
     },
@@ -42,6 +42,7 @@
         "/assets/icons/64.png",
         "/assets/icons/96.png",
         "/assets/icons/og.png",
+        "/assets/stock/computer.jpg",
         "/assets/stock/farmer-bnw-icon.png",
         "/assets/stock/farmer-with-tractor - Copy.png",
         "/assets/stock/farmer-with-tractor.png",
@@ -92,6 +93,7 @@
     "/assets/icons/64.png": "d9dc1b9c2713e9869758c17d3d5f612ec5391b95",
     "/assets/icons/96.png": "0b161251c7f54e11241fc00b7f9ae41753ca759b",
     "/assets/icons/og.png": "f2d396f932d21b19fbab76e0dabaea7f1eb67226",
+    "/assets/stock/computer.jpg": "2991f760e7e0dddabc7d70c5920d22488a3d4da4",
     "/assets/stock/farmer-bnw-icon.png": "9de5be8b35b798f6350303db9e1b72f4c1a93f4f",
     "/assets/stock/farmer-with-tractor - Copy.png": "914f850990b53b7dd1cd8a39589019211bad9309",
     "/assets/stock/farmer-with-tractor.png": "012b1c585c46e86483fd0190eb36e4352225f230",
@@ -120,9 +122,9 @@
     "/fa-solid-900.8e4a6dcc692b3887f9f5.eot": "340ee70e87850176047733192ea8109dd6380082",
     "/fa-solid-900.c2801fb415f03c7b1709.svg": "55a9f6dd285c88c6c9847fee0d5ce127c4c61c52",
     "/favicon.ico": "a7cf506f3c1b4df872c1140614230192a0f30aa0",
-    "/index.html": "ffab9b2ce98443562db6efe8e2de746d7426d61b",
-    "/main-es2015.94cca5694bb76f4ed78f.js": "4fa2edee43c07e224afab1baf73b57410038e148",
-    "/main-es5.94cca5694bb76f4ed78f.js": "3da04bbce164609c8ba5487c701005418c84352b",
+    "/index.html": "c1414510b5f39621c9ff003d7c2b95a87e6395d0",
+    "/main-es2015.98e7505f5d88e998ce10.js": "94ed7f5189c8fb49b87a15cac307f06059b65fef",
+    "/main-es5.98e7505f5d88e998ce10.js": "cfcebdb6c278707b1c00fa4ad7b62cccfe09ac77",
     "/manifest.webmanifest": "00e653043d274cf9cf0db27d2a6278127bf11949",
     "/photo-of-person-holding-pen.ef06ba8cfe4622aa141d.jpg": "34ad3ebdca5b3cc09cc5f21291d04ef0e3b3c0b9",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
@@ -131,7 +133,7 @@
     "/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/scripts.dda2d1846184eca6c160.js": "0d2ce37976cfd46b1c718323b432debe14d0eb56",
-    "/styles.65391bcf1ea4f881dddb.css": "e720c9435b4d25d8399beaf146fb155ee1521cf1"
+    "/styles.69cc3410411a5ab4f0e5.css": "e3937a6f453878914e17daaf322acc5dc845aa72"
   },
   "navigationUrls": [
     {
