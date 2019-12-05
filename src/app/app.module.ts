@@ -33,6 +33,7 @@ import { FeaturedProductsComponent } from './components/ui-elements/featured-pro
 import { AffiliateHorizontalComponent } from './components/ui-elements/affiliate-horizontal/affiliate-horizontal.component';
 import { AffiliateShowService } from './services/affiliate/affiliate-show.service';
 import { PageNotFoundComponent } from './components/pages/page-not-found/page-not-found.component';
+import { TutorialVideoComponent } from './components/ui-elements/tutorial-video/tutorial-video.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { PageNotFoundComponent } from './components/pages/page-not-found/page-no
     FeaturedProductsComponent,
     AffiliateHorizontalComponent,
     PageNotFoundComponent,
+    TutorialVideoComponent,
   ],
   imports: [
     BrowserModule,

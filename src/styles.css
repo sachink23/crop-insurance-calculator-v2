@@ -3,6 +3,9 @@
 .lang-mr {
     font-family: 'Noto Sans', sans-serif;
 }
+optgroup {
+    font-size: 0;
+}
 .height {
     min-height: 500px
 }
