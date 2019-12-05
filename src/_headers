@@ -1,2 +1,6 @@
+/*
+cache-control: max-age=259200
+Last-Modified: Mon, 05 Dec 2019 07:00:00 IST
+
 /ngsw.json
   cache-control: max-age=0,no-cache,must-revalidate
