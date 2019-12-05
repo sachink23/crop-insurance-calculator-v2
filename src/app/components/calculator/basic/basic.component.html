@@ -33,11 +33,11 @@
                     <label for="crops">Select Crop</label>
                     <select tabindex="1" (change)="calculate()" class="form-control" formControlName="crops"
                         name="crops" id="crops">
-                        <option value="" disabled>Select Crop</option>
-                        <optgroup *ngIf="stp.mode == 'vle_unpaid'">
+                    
+                        <optgroup label="Select Crop" *ngIf="stp.mode == 'vle_unpaid'">
                             <option *ngFor="let crop of crops; index as i" value="{{i}}">{{crop.crop_name}}</option>
                         </optgroup >
-                        <optgroup *ngIf="stp.mode == 'farmer'">
+                        <optgroup label="पीक निवडा" *ngIf="stp.mode == 'farmer'">
                             <option *ngFor="let crop of crops; index as i" value="{{i}}">{{crop.crop_name_mr}}</option>
                         </optgroup>
                     </select>
@@ -135,7 +135,7 @@
         <div class="container table-responsive">
             <table class="table table-bordered table-inverse">
                 <thead class="thead-inverse">
-                    <tr class="bg-dark text-light">
+                    <tr class="bg-dark text-light print-dark-to-light">
                         <th class="text-center">Sr. No.</th>
                         <th>Crop Name</th>
                         <th class="text-center">Area (Hectors)</th>

@@ -20,6 +20,10 @@ html, body
     .hide-for-print {
         display: none
     }
+    .print-dark-to-light {
+        background: white !important;
+        color: black !important;
+    }
     .copyright {
         display: none;
     }
