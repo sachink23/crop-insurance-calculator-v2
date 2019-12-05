@@ -54,10 +54,12 @@ export class SetupComponent implements OnInit {
       return false
   }
   setFarmerMode() {
+    scrollTo(0,0)
     this.defs.mode = "farmer"
     this.activeStep = 2
   }
   setVleUnpaidMode() {
+    scrollTo(0,0)
     this.defs.mode = "vle_unpaid"
     this.activeStep = 2
   }

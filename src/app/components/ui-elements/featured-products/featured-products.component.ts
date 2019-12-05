@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AffiliateShowService } from 'src/app/services/affiliate/affiliate-show.service';
 
 @Component({
   selector: 'app-featured-products',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeaturedProductsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private sh:AffiliateShowService) { }
 
   ngOnInit() {
+    this.sh.showIt = true
   }
 
 }

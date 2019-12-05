@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1575529903632,
-  "index": "/index.html",
+  "timestamp": 1575534091489,
+  "index": "/",
   "assetGroups": [
     {
       "name": "app",
@@ -10,8 +10,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.905064f22a488d5a3c8e.js",
-        "/main-es5.905064f22a488d5a3c8e.js",
+        "/main-es2015.68da79746fcd5eab7103.js",
+        "/main-es5.68da79746fcd5eab7103.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
@@ -122,10 +122,10 @@
     "/fa-solid-900.8e4a6dcc692b3887f9f5.eot": "340ee70e87850176047733192ea8109dd6380082",
     "/fa-solid-900.c2801fb415f03c7b1709.svg": "55a9f6dd285c88c6c9847fee0d5ce127c4c61c52",
     "/favicon.ico": "a7cf506f3c1b4df872c1140614230192a0f30aa0",
-    "/index.html": "bc0c25893d53a2c8d7083a2e6f91ede9052f1d06",
-    "/main-es2015.905064f22a488d5a3c8e.js": "ef13e9f77f1c3180fcb92d5cc0deb59d322dc669",
-    "/main-es5.905064f22a488d5a3c8e.js": "28ff2daed5c3fc3a18bbd5d5f22e2250fa6a05c7",
-    "/manifest.webmanifest": "00e653043d274cf9cf0db27d2a6278127bf11949",
+    "/index.html": "e7d54031d7439964c540c09185533bc52ecf3b62",
+    "/main-es2015.68da79746fcd5eab7103.js": "8f116edcaf1fd3ab5a6be4a8889ba426a33f9365",
+    "/main-es5.68da79746fcd5eab7103.js": "8706f6d039e1c8af99996bd81d163f03f7eefc6a",
+    "/manifest.webmanifest": "22c77bc4a2d0b5dafbbff7f6e0d3d29cda540638",
     "/photo-of-person-holding-pen.ef06ba8cfe4622aa141d.jpg": "34ad3ebdca5b3cc09cc5f21291d04ef0e3b3c0b9",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "9ceb13edd4b10268f661814868dadb2b284f9745",

@@ -11,7 +11,7 @@ export class FeedbackComponent implements OnInit {
   constructor(private aff:AffiliateShowService) { }
 
   ngOnInit() {
-    this.aff.hide()
+    this.aff.showIt = false
   }
 
 }

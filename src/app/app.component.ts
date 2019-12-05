@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { PwaUpdateService } from './services/update/pwa-update.service';
-import Swal from 'sweetalert2';
 import { AffiliateShowService } from './services/affiliate/affiliate-show.service';
 
 @Component({
