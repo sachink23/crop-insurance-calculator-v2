@@ -20,6 +20,7 @@ export class BasicComponent implements OnInit {
   areas: Array<number>
   calcForm:FormGroup
   vleCalcForm: FormGroup
+  noteCalcForm: FormGroup
   total = {
     crops: 0,
     area : 0,
@@ -74,10 +75,20 @@ export class BasicComponent implements OnInit {
       ]],
       pending_amt: ['', []]
     })
+    this.noteCalcForm = this.builder.group({
+      note2000: ['', []],
+      note500: ['', []],
+      note200: ['', []],
+      note100: ['', []],
+      note50: ['', []],
+      note20: ['', []],
+      note10: ['', []],
+    })
     this.vleCalcForm.controls.paid_amt.setValue(0)
     this.vleCalcForm.controls.pending_amt.setValue(0)
     this.vleCalcForm.reset()
     this.calcForm.reset()
+    this.noteCalcForm.reset()
   }
   calculate() {
     if(this.calcForm.controls.crops.value && this.calcForm.controls.area.valid) {

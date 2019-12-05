@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AffiliateShowService } from 'src/app/services/affiliate/affiliate-show.service';
 
 @Component({
   selector: 'app-affiliate-horizontal',
@@ -8,7 +7,7 @@ import { AffiliateShowService } from 'src/app/services/affiliate/affiliate-show.
 })
 export class AffiliateHorizontalComponent implements OnInit {
 
-  constructor(public serv:AffiliateShowService) { }
+  constructor() { }
 
   ngOnInit() {
 

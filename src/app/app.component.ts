@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { PwaUpdateService } from './services/update/pwa-update.service';
 import Swal from 'sweetalert2';
+import { AffiliateShowService } from './services/affiliate/affiliate-show.service';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,7 @@ import Swal from 'sweetalert2';
 })
 export class AppComponent {
   title = 'crop-insurance-calculator-v2';
-  constructor(private update: PwaUpdateService){
+  constructor(private update: PwaUpdateService, public aff:AffiliateShowService){
    
   }
 }

@@ -8,6 +8,7 @@ import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privac
 import { ChartComponent } from './components/pages/chart/chart.component';
 import { ToolsForVleComponent } from './components/pages/tools-for-vle/tools-for-vle.component';
 import { FeedbackComponent } from './components/pages/feedback/feedback.component';
+import { PageNotFoundComponent } from './components/pages/page-not-found/page-not-found.component';
 
 
 const routes: Routes = [
@@ -42,7 +43,8 @@ const routes: Routes = [
   {
     path: 'feedback',
     component: FeedbackComponent
-  }
+  },
+  { path: '**', component:  PageNotFoundComponent}
 
 ];
 

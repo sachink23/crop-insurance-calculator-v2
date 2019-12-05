@@ -5,15 +5,28 @@
                     {{state_name_en}} | {{district_name_en}} </u></em>| <a href="javascript:void(0)"
                 (click)="clearSetup()" class="lead hide-for-print" style="cursor:pointer"><strong><i
                         class="fas fa-edit"></i>
-                    Edit</strong></a>&nbsp;&nbsp;&nbsp;</span> <span *ngIf="stp.mode == 'vle_unpaid'" class="lead" style="font-weight: bolder;"><a href="javascript:void(0)" class="text-right text-danger hide-print-chart" [routerLink]="['/premium-charts']"><i class="fas fa-print"></i> Print Chart For Your District With Center Name&nbsp;&nbsp;</a></span>
+                    Edit</strong></a>&nbsp;&nbsp;&nbsp;</span> <span *ngIf="stp.mode == 'vle_unpaid'" class="lead"
+            style="font-weight: bolder;"><a href="javascript:void(0)" class="text-right text-danger hide-print-chart"
+                [routerLink]="['/premium-charts']"><i class="fas fa-print"></i> Print Chart For Your District With
+                Center Name&nbsp;&nbsp;</a></span>
     </div>
 
 
     <div class="container text-right hide-for-print">
-            <a [routerLink]="['/feedback']" style="font-size: 18px; font-style: italic;"><i class="fa fa-comment"></i> Give Feedback</a>
+        <div class="row">
+            <div class="col-6 text-left">
+                <a href="javascript:void(0)" data-toggle="modal" data-target="#noteCalculator"
+                    style="font-size: 18px; font-style: italic;"><i class="fa fa-rupee-sign"></i> Note Calculator</a>
+
+            </div>
+            <div class="col-6 text-right">
+                <a [routerLink]="['/feedback']" style="font-size: 18px; font-style: italic;"><i
+                        class="fa fa-comment"></i> Give Feedback</a>
+            </div>
+        </div>
     </div>
     <div class="container mt-4 mb-3 hide-for-print">
-        
+
         <form class="row" [formGroup]="calcForm" action="javascript:void(0)" (submit)="addCrop()">
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="form-group">
@@ -164,6 +177,131 @@
         </div>
     </div>
     <div class="container print mt-2">
-        <p class="lead text-center" style="font-weight: bolder; text-decoration: underline;">Proudly Powered By Kekarjawalekar Technologies - Crop Insurance Calculator V2 2019</p>
+        <p class="lead text-center" style="font-weight: bolder; text-decoration: underline;">Proudly Powered By
+            Kekarjawalekar Technologies - Crop Insurance Calculator V2 2019</p>
+    </div>
+</div>
+
+<!-- Modal Note Calculator -->
+<div class="modal fade" id="noteCalculator" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger"> <i class="fas fa-calculator"></i> Note Calculator</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="javascript:void(0)" [formGroup]="noteCalcForm">
+                    <table class="table table-bordered text-center">
+                        <thead>
+                            <tr>
+                                <th width="10%">#</th>
+                                <th width="30%">Quantity of Notes</th>
+                                <th width="25%">Value</th>
+                                <th width="25%"> Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">1</td>
+                                <td>
+                                    <input type="number" class="form-control form-control-sm" formControlName="note2000" name="note2000"
+                                        id="note2000">
+
+                                </td>
+                                <td>2000</td>
+                                <td>{{ noteCalcForm.controls.note2000.value * 2000 }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">2</td>
+                                <td>
+                                    <input type="number" class="form-control form-control-sm" formControlName="note500" name="note500"
+                                        id="note500">
+
+                                </td>
+                                <td>500</td>
+                                <td>{{ noteCalcForm.controls.note500.value * 500 }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">3</td>
+                                <td>
+                                    <input type="number" class="form-control form-control-sm" formControlName="note200" name="note200"
+                                        id="note200">
+
+                                </td>
+                                <td>200</td>
+                                <td>{{ noteCalcForm.controls.note200.value * 200 }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">4</td>
+                                <td>
+                                    <input type="number" class="form-control form-control-sm" formControlName="note100" name="note100"
+                                        id="note100">
+
+                                </td>
+                                <td>100</td>
+                                <td>{{ noteCalcForm.controls.note100.value * 100 }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">5</td>
+                                <td>
+                                    <input type="number" class="form-control form-control-sm" formControlName="note50" name="note50"
+                                        id="note50">
+
+                                </td>
+                                <td>50</td>
+                                <td>{{ noteCalcForm.controls.note50.value * 50 }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">6</td>
+                                <td>
+                                    <input type="number" class="form-control form-control-sm" formControlName="note20" name="note20"
+                                        id="note20">
+
+                                </td>
+                                <td>20</td>
+                                <td>{{ noteCalcForm.controls.note20.value * 20 }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">7</td>
+                                <td>
+                                    <input type="number" class="form-control form-control-sm" formControlName="note10" name="note10"
+                                        id="note10">
+
+                                </td>
+                                <td>10</td>
+                                <td> {{ noteCalcForm.controls.note10.value * 10 }} </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button btn-danger m-2" (click)="noteCalcForm.reset()">Reset</button>
+                                </td>
+                                <td colspan="2" class="text-right"><strong>Total Amount : </strong></td>
+                                <td><strong> <i class="fa fa-rupee-sign"></i>&nbsp;
+                                        {{
+                                        noteCalcForm.controls.note2000.value * 2000 +
+                                        noteCalcForm.controls.note500.value * 500 +
+                                        noteCalcForm.controls.note200.value * 200 +
+                                        noteCalcForm.controls.note100.value * 100 + 
+                                        noteCalcForm.controls.note50.value * 50 +
+                                        noteCalcForm.controls.note20.value * 20 +
+                                        noteCalcForm.controls.note10.value * 10 
+
+                                    }}</strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Close</button>
+            </div>
+        </div>
     </div>
 </div>

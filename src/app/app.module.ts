@@ -31,8 +31,8 @@ import { ToolsForVleComponent } from './components/pages/tools-for-vle/tools-for
 import { FeedbackComponent } from './components/pages/feedback/feedback.component';
 import { FeaturedProductsComponent } from './components/ui-elements/featured-products/featured-products.component';
 import { AffiliateHorizontalComponent } from './components/ui-elements/affiliate-horizontal/affiliate-horizontal.component';
-import { TutorialVideoComponent } from './components/ui-elements/tutorial-video/tutorial-video.component';
 import { AffiliateShowService } from './services/affiliate/affiliate-show.service';
+import { PageNotFoundComponent } from './components/pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +57,7 @@ import { AffiliateShowService } from './services/affiliate/affiliate-show.servic
     FeedbackComponent,
     FeaturedProductsComponent,
     AffiliateHorizontalComponent,
-    TutorialVideoComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
