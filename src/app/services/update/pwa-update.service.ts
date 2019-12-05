@@ -2,13 +2,10 @@ import { Injectable } from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
 import Swal from 'sweetalert2';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class PwaUpdateService {
   constructor(private swUpdate: SwUpdate) {
     this.swUpdate.available.subscribe(evt => {
-        console.log("Update Available")
         Swal.fire({
           title: "Update Available",
           icon: "info",
@@ -24,13 +21,7 @@ export class PwaUpdateService {
               this.update()
           }
         })
-    }, 
-    error => console.log(error),
-    function() {
-      console.log("SwUpdate Executed")
-    }
-    
-    )
+    })
   }
   update() {
     window.location.reload(true)
