@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tutorial-video.component.css']
 })
 export class TutorialVideoComponent implements OnInit {
-  video_embed_url = "";
+  video_embed_url = "https://www.youtube.com/embed/x-Esj1Tobek"
   constructor() { }
 
   ngOnInit() {

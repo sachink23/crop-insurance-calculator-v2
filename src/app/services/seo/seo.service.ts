@@ -16,7 +16,7 @@ export class SeoService {
       {property: 'og:type', content: 'website'},
       {property: 'og:title', content: title},
       {property: 'og:description', content: description},
-      {property: 'og:image', content: 'https://www.kportal.in/assets/icons/og.png'} 
+      {property: 'og:image', content: 'https://www.kportal.in/assets/icons/og.jpg'} 
     ]
     tags.forEach(tag => {
       this.meta.updateTag(tag)
