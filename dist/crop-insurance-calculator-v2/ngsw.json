@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1575558646333,
+  "timestamp": 1575560942888,
   "index": "/",
   "assetGroups": [
     {
@@ -9,9 +9,8 @@
       "updateMode": "prefetch",
       "urls": [
         "/favicon.ico",
-        "/index.html",
-        "/main-es2015.7d37237c550481667c66.js",
-        "/main-es5.7d37237c550481667c66.js",
+        "/main-es2015.f601e1592ac43af4413e.js",
+        "/main-es5.f601e1592ac43af4413e.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
@@ -120,9 +119,8 @@
     "/fa-solid-900.8e4a6dcc692b3887f9f5.eot": "340ee70e87850176047733192ea8109dd6380082",
     "/fa-solid-900.c2801fb415f03c7b1709.svg": "55a9f6dd285c88c6c9847fee0d5ce127c4c61c52",
     "/favicon.ico": "a7cf506f3c1b4df872c1140614230192a0f30aa0",
-    "/index.html": "ab4d4ec56a9ad064bdb2d70873242a146ee728a5",
-    "/main-es2015.7d37237c550481667c66.js": "e1e3f5cbf6b1165f73ebd5b5ca3df22722a4e97c",
-    "/main-es5.7d37237c550481667c66.js": "49f840063675dbfc86e6de3403a3fe3212cb8c26",
+    "/main-es2015.f601e1592ac43af4413e.js": "6a4563f952b5af8824f7c55e3c305605b79ee284",
+    "/main-es5.f601e1592ac43af4413e.js": "c2d7b74bc54f518a05b510bd214fc3bc20fd6eed",
     "/manifest.webmanifest": "22c77bc4a2d0b5dafbbff7f6e0d3d29cda540638",
     "/photo-of-person-holding-pen.ef06ba8cfe4622aa141d.jpg": "34ad3ebdca5b3cc09cc5f21291d04ef0e3b3c0b9",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
