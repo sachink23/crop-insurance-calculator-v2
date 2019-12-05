@@ -1,11 +1,11 @@
 {
   "name": "Crop Insurance Calculator by Kekarjawalekar Technologies",
-  "short_name": "CIC",
+  "short_name": "CIC V2",
   "theme_color": "#BAFFCE",
   "background_color": "#BAFFCE",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/?utm_source=pwa",
+  "start_url": "/",
   "icons": [
     {
       "src": "assets/icons/16.png",
