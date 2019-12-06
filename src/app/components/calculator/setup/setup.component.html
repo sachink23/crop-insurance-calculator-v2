@@ -49,14 +49,13 @@
                             Season</label>
                         <select class="form-control" name="season" formControlName="season" id="season"
                             [ngClass]="{'is-invalid': checkElement(selectionForm.controls.season)}">
-                           
+                            <option style="display: none;" value="">Select Season</option>
                             <optgroup label="Select Season" *ngIf="defs.mode == 'vle_unpaid'">
                                 <option *ngFor="let season of calc.getSeasons()" value="{{season.season_array_index}}">
                                     {{season.season_name}}</option>
                             </optgroup>
                             <optgroup label="Select Season" *ngIf="defs.mode == 'farmer'">
-                                <option *ngFor="let season of calc.getSeasons()"
-                                    value="{{season.season_array_index}}">
+                                <option *ngFor="let season of calc.getSeasons()" value="{{season.season_array_index}}">
                                     {{season.season_name_mr}}</option>
                             </optgroup>
                         </select>
@@ -70,7 +69,9 @@
                             [ngClass]="{'text-danger': checkElement(selectionForm.controls.state)}">Select State</label>
                         <select class="form-control" name="state" formControlName="state" id="state"
                             [ngClass]="{'is-invalid': checkElement(selectionForm.controls.state)}">
+                            <option style="display: none;" value="">Select State</option>
                             <optgroup label="Select State" *ngIf="defs.mode == 'vle_unpaid'">
+
                                 <option
                                     *ngFor="let state of calc.getStatesForSeason(selectionForm.controls.season.value)"
                                     value="{{state.state_array_index}}">
@@ -95,6 +96,7 @@
                             District</label>
                         <select class="form-control" name="district" formControlName="district" id="district"
                             [ngClass]="{'is-invalid': checkElement(selectionForm.controls.district)}">
+                            <option style="display: none;">Select District</option>
                             <optgroup label="Select District" *ngIf="defs.mode == 'vle_unpaid'">
                                 <option
                                     *ngFor="let district of calc.getDistrictsForSeasonAndState(selectionForm.controls.season.value, selectionForm.controls.state.value)"
