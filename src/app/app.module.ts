@@ -1,4 +1,5 @@
 import { BrowserModule, Title, Meta } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -63,6 +64,7 @@ import { TutorialVideoComponent } from './components/ui-elements/tutorial-video/
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     SweetAlert2Module,
 

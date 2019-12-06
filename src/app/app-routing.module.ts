@@ -14,37 +14,67 @@ import { PageNotFoundComponent } from './components/pages/page-not-found/page-no
 const routes: Routes = [
   { 
     path: '', 
-    component: HomeComponent 
+    component: HomeComponent,
+    data : {
+      animation:'home'
+    }
   },
   { 
     path: 'calculator', 
-    component: CalculatorComponent 
+    component: CalculatorComponent,
+    data : {
+      animation:'calculator'
+    }
   },
   {
     path: 'about',
-    component: AboutComponent
+    component: AboutComponent,
+    data : {
+      animation:'about'
+    }
   },
   {
     path: 'contact',
-    component: ContactComponent
+    component: ContactComponent,
+    data : {
+      animation:'contact'
+    }
   },
   {
     path: 'privacy-and-terms',
-    component: PrivacyPolicyComponent
+    component: PrivacyPolicyComponent,
+    data : {
+      animation:'privacy-and-terms'
+    }
   },
   {
     path: 'premium-charts',
-    component: ChartComponent
+    component: ChartComponent,
+    data : {
+      animation:'premium-charts'
+    }
   },
   {
     path: 'business-development-tools',
-    component: ToolsForVleComponent
+    component: ToolsForVleComponent,
+    data : {
+      animation:'business-development-tools'
+    }
   },
   {
     path: 'feedback',
-    component: FeedbackComponent
+    component: FeedbackComponent,
+    data : {
+      animation:'feedback'
+    }
   },
-  { path: '**', component:  PageNotFoundComponent}
+  { 
+    path: '**', 
+    component:  PageNotFoundComponent,
+    data : {
+      animation:'**'
+    }
+  }
 
 ];
 
