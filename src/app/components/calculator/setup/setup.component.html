@@ -1,6 +1,7 @@
 <div *ngIf="activeStep == 1" class="setup-body container-fluid">
 
     <h1 class="title-page mt-2 text-center">Select Mode</h1>
+    <p class="lead text-center">Supported Browser : Chrome Latest (70+ on smartphone, desktop)</p>
     <hr class="text-light" />
 
     <div class="row mb-3">
@@ -49,7 +50,7 @@
                             Season</label>
                         <select class="form-control" name="season" formControlName="season" id="season"
                             [ngClass]="{'is-invalid': checkElement(selectionForm.controls.season)}">
-                            <option style="display: none;" value="">Select Season</option>
+                            <option value="">#</option>
                             <optgroup label="Select Season" *ngIf="defs.mode == 'vle_unpaid'">
                                 <option *ngFor="let season of calc.getSeasons()" value="{{season.season_array_index}}">
                                     {{season.season_name}}</option>
@@ -69,7 +70,7 @@
                             [ngClass]="{'text-danger': checkElement(selectionForm.controls.state)}">Select State</label>
                         <select class="form-control" name="state" formControlName="state" id="state"
                             [ngClass]="{'is-invalid': checkElement(selectionForm.controls.state)}">
-                            <option style="display: none;" value="">Select State</option>
+                            <option value="">#</option>
                             <optgroup label="Select State" *ngIf="defs.mode == 'vle_unpaid'">
 
                                 <option
@@ -96,7 +97,7 @@
                             District</label>
                         <select class="form-control" name="district" formControlName="district" id="district"
                             [ngClass]="{'is-invalid': checkElement(selectionForm.controls.district)}">
-                            <option style="display: none;">Select District</option>
+                            <option value="">#</option>
                             <optgroup label="Select District" *ngIf="defs.mode == 'vle_unpaid'">
                                 <option
                                     *ngFor="let district of calc.getDistrictsForSeasonAndState(selectionForm.controls.season.value, selectionForm.controls.state.value)"
