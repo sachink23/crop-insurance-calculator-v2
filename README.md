@@ -1,4 +1,4 @@
-# CropInsuranceCalculatorV2
+# Crop Insurance Calculator V2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
 
