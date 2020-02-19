@@ -8,4 +8,4 @@ Crop insurance calculator helps CSC VLEs, farmers to calculate their crop insura
 
 ## Visit
 
-https://kportal.in
+https://cic.kportal.in
