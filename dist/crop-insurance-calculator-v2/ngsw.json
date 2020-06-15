@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582091861011,
+  "timestamp": 1592204508045,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,15 +10,15 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.32d70d40879302ac07b4.js",
-        "/main-es5.32d70d40879302ac07b4.js",
+        "/main-es2015.44b51256b4544275fc02.js",
+        "/main-es5.44b51256b4544275fc02.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.5b10b8fd823b6392f1fd.js",
-        "/polyfills-es5.8e50a9832860f7cf804a.js",
+        "/polyfills-es5.3e8196928d184a6e5319.js",
         "/runtime-es2015.c5fa8325f89fc516600b.js",
         "/runtime-es5.c5fa8325f89fc516600b.js",
         "/scripts.d915779c3c0a9004c121.js",
-        "/styles.c7052a131160da7846d6.css"
+        "/styles.b6199cdfe18d92ac39ec.css"
       ],
       "patterns": []
     },
@@ -95,7 +95,7 @@
     "/assets/stock/farmer-bnw-icon.png": "9de5be8b35b798f6350303db9e1b72f4c1a93f4f",
     "/assets/stock/farmer-with-tractor - Copy.png": "914f850990b53b7dd1cd8a39589019211bad9309",
     "/assets/stock/farmer-with-tractor.png": "012b1c585c46e86483fd0190eb36e4352225f230",
-    "/assets/stock/iphone.svg": "4b2684f02d312d2f72ee3329f1a5f4858927d5a3",
+    "/assets/stock/iphone.svg": "029eafdd37d6145dada35d294e27c3e8adb12ced",
     "/assets/stock/photo-of-person-holding-pen - Copy.jpg": "cf13b23301927c5bb48c550e1e68581d0ddbb12b",
     "/assets/stock/photo-of-person-holding-pen.jpg": "34ad3ebdca5b3cc09cc5f21291d04ef0e3b3c0b9",
     "/assets/team/ganesh.jpg": "bfb941059dcc7cf54e710caf8cac38cec0f26ca7",
@@ -120,18 +120,18 @@
     "/fa-solid-900.89e02bae13c9131c7468.eot": "e13aaeda706af85d9382d7c39f5a3f79d612cd31",
     "/fa-solid-900.cdfec5cf5e9840889790.woff": "120dab7a8a93da819ab3025da6a9f3d3ccd65cce",
     "/favicon.ico": "a7cf506f3c1b4df872c1140614230192a0f30aa0",
-    "/index.html": "8ae232f0238279f156a32913ed8f6b2641c5ba59",
-    "/main-es2015.32d70d40879302ac07b4.js": "7dfb91ad5602894f1dbba0b099deefe5159d1afe",
-    "/main-es5.32d70d40879302ac07b4.js": "3adf5f5180d89e97e3f03f7e9648699096c7f49c",
-    "/manifest.webmanifest": "7f00869a04d0b0f87e9a1dea35caaa22d37358d9",
+    "/index.html": "3c886eb63d9dbc7bcf3d8613fc2f0a8dc2555b61",
+    "/main-es2015.44b51256b4544275fc02.js": "7dfb91ad5602894f1dbba0b099deefe5159d1afe",
+    "/main-es5.44b51256b4544275fc02.js": "3adf5f5180d89e97e3f03f7e9648699096c7f49c",
+    "/manifest.webmanifest": "849447b356c30fd32b1ef28e4bf038fa8c693a8c",
     "/photo-of-person-holding-pen.ef06ba8cfe4622aa141d.jpg": "34ad3ebdca5b3cc09cc5f21291d04ef0e3b3c0b9",
     "/polyfills-es2015.5b10b8fd823b6392f1fd.js": "9abfe15f17820a646e3d51c420908d9f8f7b69b8",
-    "/polyfills-es5.8e50a9832860f7cf804a.js": "a9abcb7b9e74feed315773004b623373fdf3fada",
+    "/polyfills-es5.3e8196928d184a6e5319.js": "a9abcb7b9e74feed315773004b623373fdf3fada",
     "/right-sider-banner.87f159a04cb5e6b62a41.png": "663f20dc7700a2817cc804eb2ccfec3124391d54",
     "/runtime-es2015.c5fa8325f89fc516600b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.c5fa8325f89fc516600b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/scripts.d915779c3c0a9004c121.js": "4a840d75cca1110e1656aa8f434b7ebe56b497d1",
-    "/styles.c7052a131160da7846d6.css": "b627738180c777f99272baa95230ddd92bcf11f1"
+    "/styles.b6199cdfe18d92ac39ec.css": "b627738180c777f99272baa95230ddd92bcf11f1"
   },
   "navigationUrls": [
     {
