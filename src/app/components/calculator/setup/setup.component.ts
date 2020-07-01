@@ -28,19 +28,19 @@ export class SetupComponent implements OnInit {
     this.selectionForm = this.builder.group({
       season: ['', [
         Validators.required,
-        Validators.max(0),
-        Validators.min(this.calc.getSeasons().length - 1),
+        Validators.min(0),
+        Validators.max(this.calc.getSeasons().length),
 
       ]],
       state: ['', [
         Validators.required,
         Validators.min(0),
-        Validators.max(0)
+        Validators.max(28)
       ]],
       district: ['', [
         Validators.required,
         Validators.min(0),
-        Validators.max(21)
+        Validators.max(40)
       ]]
     });
   }
