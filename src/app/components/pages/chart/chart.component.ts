@@ -21,6 +21,7 @@ export class ChartComponent implements OnInit {
   district_name_mr
   insurance_company_details: { name: string; name_mr: string; toll_free_number: string; email: string; website: string; headquarter_address: string; headquarter_address_mr: string; }
   crops: { crop_key: string; crop_name: string; crop_name_mr: string; crop_category: string; insurance_pricing: { premium_farmer_share: number; premium_gov_share: number; sum_insured: number; }; }[];
+  last_date_of_application: any;
   constructor(private seo: SeoService, private route: Router, private builder: FormBuilder, private calc: CalculatorService, private aff:AffiliateShowService) { }
 
   ngOnInit() {
@@ -54,6 +55,8 @@ export class ChartComponent implements OnInit {
 
     this.vle = []
     this.season_name_mr = this.calc.getSeasons()[this.setup.season_id].season_name_mr
+    this.last_date_of_application = this.calc.getSeasons()[this.setup.season_id].last_date_of_application
+    console.log(this.last_date_of_application)
     this.state_name_mr = this.calc.getStates(this.setup.season_id)[this.setup.state_id].state_name_mr
     this.district_name_mr = this.calc.getDistricts(this.setup.season_id, this.setup.state_id)[this.setup.district_id].district_name_mr
     this.crops = this.calc.getCrops(this.setup.season_id, this.setup.state_id, this.setup.district_id)

@@ -1,3 +1,4 @@
-https://old-cic.kportal.in/* https://www.kportal.in/:splat 301!
-https://cicv2.netlify.com/* https://www.kportal.in/:splat 301!
+https://old-cic.kportal.in/* https://cic.kportal.in/:splat 301!
+https://cicv2.netlify.com/* https://cic.kportal.in/:splat 301!
+https://www.kportal.in/* https://cic.kportal.in/:splat 301!
 /* /index.html 200

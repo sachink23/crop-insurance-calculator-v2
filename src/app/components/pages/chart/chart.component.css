@@ -11,7 +11,7 @@ input, textarea {
 .bg-card {
     background: lightgreen;
 }
-tr,th {
+td,th {
     vertical-align: middle;
 }
 

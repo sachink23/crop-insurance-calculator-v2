@@ -27,7 +27,7 @@
         </form>
     </div>
 </div>
-<div *ngIf="formSubmited" class="container-fluid text-center hide-for-print">
+<div *ngIf="formSubmited" class="container-fluid text-center hide-for-print py-2">
     <button type="button" class="btn hide-for-print btn-primary btn-lg" onclick="window.print() "><i
             class="fas fa-print"></i> Print</button>
 </div>
@@ -38,13 +38,13 @@
             <thead class="lang-mr">
                 <tr>
                     <th colspan="6">
-                        <h1 class="text-center py-2"> पीकविमा रेट चार्ट - {{season_name_mr}}
+                        <h1 class="text-center py-1"> पीकविमा रेट चार्ट - {{season_name_mr}}
                         </h1>
                     </th>
                 </tr>
                 <tr>
                     <th colspan="6">
-                        <h2 class="text-center py-2"> जिल्हा - {{ district_name_mr }}
+                        <h2 class="text-center py-1"> जिल्हा - {{ district_name_mr }}
                         </h2>
                     </th>
                 </tr>
@@ -73,7 +73,7 @@
                 <tr>
                     <td colspan="6">
                         <div class="card text-center  my-2">
-                            <div class="card-header lang-mr py-2">
+                            <div class="card-header lang-mr py-1">
                                 <h3><strong>वीमा कंपनी</strong></h3>
                             </div>
                             <div class="card-body lang-mr">
@@ -112,7 +112,8 @@
                     <td colspan="6">
                         <div class="card text-center  my-2">
                             <div class="card-header lang-mr">
-                                <h3><strong>आपला पीकवीमा भरण्यासाठी आजच संपर्क करा</strong></h3>
+                              <h4><strong>पीकविमा भरण्याची शेवटची तारीख - ३१/०७/२०२० </strong></h4>
+                              <h3><strong>आपला पीकवीमा भरण्यासाठी आजच संपर्क करा</strong></h3>
                             </div>
                             <div class="card-body lang-mr">
                                 <h4 class="card-title mt-2" style="font-size: 25px;">
@@ -121,7 +122,7 @@
                                 <p class="lead mb-2" style="font-size: 22px;">मोबाईल नंबर : {{vle['mobile']}}</p>
                             </div>
                             <div class="card-footer lang-mr">
-                                <span class="text-left" style="float: left; font-size:12x">Proudly Powered By Crop
+                                <span class="text-left" style="float: left; font-size:12px">Proudly Powered By Crop
                                     Insurance Calculator - Kekarjawalekar Technologies<br /><a
                                         href="https://www.kekarjawalekar.com/?utm_source=Crop_Insurance_Calculator&utm_medium=Chart_Print_Area&utm_campaign=promote_kekarjawalekar_com_with_calculator"
                                         class="py-2" target="_blank">https://www.kekarjawalekar.com</a></span><img

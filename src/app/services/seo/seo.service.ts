@@ -7,7 +7,7 @@ import { Title, Meta } from '@angular/platform-browser';
 export class SeoService {
   defaultDescription = "Crop insurance calculator helps CSC VLEs, farmers to calculate their crop insurance premium, insured amount, government share for specific crop in their district."
   constructor(public titleService: Title, public meta: Meta) { }
- 
+
   defaultPageSeo(title, description = this.defaultDescription) {
     this.titleService.setTitle(title)
     var tags = [
@@ -16,7 +16,7 @@ export class SeoService {
       {property: 'og:type', content: 'website'},
       {property: 'og:title', content: title},
       {property: 'og:description', content: description},
-      {property: 'og:image', content: 'https://www.kportal.in/assets/icons/og.jpg'} 
+      {property: 'og:image', content: 'https://cic.kportal.in/assets/icons/og.jpg'}
     ]
     tags.forEach(tag => {
       this.meta.updateTag(tag)

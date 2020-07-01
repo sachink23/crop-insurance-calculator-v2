@@ -5,7 +5,7 @@ import Swal from 'sweetalert2';
 @Injectable()
 export class PwaUpdateService {
   constructor(private swUpdate: SwUpdate) {
-    console.log("Welcome to https://www.kportal.in, Crop Insurance Calculator by Kekarjawalekar Technologies")
+    console.log("Welcome to https://cic.kportal.in, Crop Insurance Calculator by Kekarjawalekar Technologies")
     this.swUpdate.available.subscribe(evt => {
         Swal.fire({
           title: "Update Available",
@@ -23,7 +23,7 @@ export class PwaUpdateService {
           }
         })
     })
-    
+
   }
   update() {
     window.location.reload(true)
