@@ -1,6 +1,5 @@
 # Crop Insurance Calculator V2
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6c5e7a0f-9018-4682-bea9-57571e2cf201/deploy-status)](https://cic.kportal.in?utm_source=github&utm_medium=netlify_status_badge)
 
 ## About
 
@@ -9,3 +8,7 @@ Crop insurance calculator helps CSC VLEs, farmers to calculate their crop insura
 ## Visit
 
 https://cic.kportal.in
+
+## Info
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
