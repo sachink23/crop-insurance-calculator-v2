@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
-import { LocalStorageService } from '../local-storage/local-storage.service';
 import Swal from 'sweetalert2';
 
 @Injectable()
 export class PwaUpdateService {
-  constructor(private swUpdate: SwUpdate, private ls:LocalStorageService) {
+  constructor(private swUpdate: SwUpdate) {
     console.log("Welcome to https://cic.kportal.in, Crop Insurance Calculator by Kekarjawalekar Technologies")
     this.swUpdate.available.subscribe(evt => {
         Swal.fire({
@@ -27,7 +26,7 @@ export class PwaUpdateService {
 
   }
   update() {
-    this.ls.clear("calculator_defaults");
+    localStorage.clear();
     window.location.reload(true)
   }
 }
