@@ -19,6 +19,7 @@ export class PwaUpdateService {
           }
         }).then((result) => {
           if (result.value) {
+              localStorage.removeItem("calculator_defaults");
               this.update()
           }
         })
@@ -27,6 +28,6 @@ export class PwaUpdateService {
   }
   update() {
     localStorage.clear();
-    window.location.href = "/";
+    window.location.reload(true)
   }
 }
