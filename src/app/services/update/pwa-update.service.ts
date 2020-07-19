@@ -27,6 +27,6 @@ export class PwaUpdateService {
   }
   update() {
     localStorage.clear();
-    window.location.reload(true)
+    window.location.href = "/";
   }
 }
