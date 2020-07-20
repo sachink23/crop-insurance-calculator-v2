@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { PwaUpdateService } from './services/update/pwa-update.service';
 import { AffiliateShowService } from './services/affiliate/affiliate-show.service';
 import {
@@ -20,21 +20,21 @@ import {
         query(':enter',
           style({
             position: 'fixed',
-            width:'100%',
+            width: '100%',
             transform: 'translateX(-100%)'
           }),
-          {optional:true}),
+          {optional: true}),
 
         // move page off screen right on leave
         query(':leave',
           animate('500ms ease',
             style({
               position: 'fixed',
-              width:'100%',
+              width: '100%',
               transform: 'translateX(100%)'
             })
           ),
-        {optional:true}),
+        {optional: true}),
 
         // move page in screen from left to right
         query(':enter',
@@ -44,17 +44,23 @@ import {
               transform: 'translateX(0%)'
             })
           ),
-        {optional:true}),
+        {optional: true}),
       ])
     ])
   ]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'crop-insurance-calculator-v2';
-  constructor(private update: PwaUpdateService, public aff:AffiliateShowService){
-   
+  constructor(private update: PwaUpdateService, public aff: AffiliateShowService) {
+
+  }
+  ngOnInit() {
+    if (!localStorage.getItem('updated_')) {
+      localStorage.removeItem('calculator_defaults');
+      localStorage.setItem('updated_', 'true');
+    }
   }
   getRouteAnimation(outlet) {
-    return outlet.activatedRouteData.animation
+    return outlet.activatedRouteData.animation;
   }
 }
