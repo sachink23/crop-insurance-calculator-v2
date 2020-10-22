@@ -3154,7 +3154,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -3237,7 +3237,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 360,
@@ -3298,7 +3298,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 375,
@@ -3359,7 +3359,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -3431,7 +3431,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 375,
@@ -3481,7 +3481,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -3553,7 +3553,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -3603,7 +3603,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -3653,7 +3653,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -3725,7 +3725,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 243.75,
@@ -3786,7 +3786,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 375,
@@ -3825,7 +3825,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -3886,7 +3886,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 405,
@@ -3969,7 +3969,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -4030,7 +4030,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -4091,7 +4091,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -4152,7 +4152,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -4202,7 +4202,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -4252,7 +4252,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -4313,7 +4313,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 450,
@@ -4396,7 +4396,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -4479,7 +4479,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -4540,7 +4540,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -4701,7 +4701,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 300,
@@ -4773,7 +4773,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 225,
@@ -4895,7 +4895,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 262.5,
@@ -4978,7 +4978,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
@@ -5017,7 +5017,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 360,
@@ -5067,7 +5067,7 @@ export class Seasons {
             {
               "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
               "crop_name": "Bengal Gram (Chana)",
-              "crop_name_mr": "\u091a\u0928\u093e",
+              "crop_name_mr": "हरभरा",
               "crop_category": "Pulses",
               "insurance_pricing": {
                 "premium_farmer_share": 525,
