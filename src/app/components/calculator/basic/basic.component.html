@@ -30,22 +30,16 @@
         <form class="row" [formGroup]="calcForm" action="javascript:void(0)" (submit)="addCrop()">
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="form-group">
-                    <label for="crops">Select Crop</label>
+                    <label for="crops">{{stp.mode == 'vle_unpaid' ? 'Select Crop':'पीक निवडा'}}</label>
                     <select tabindex="1" (change)="calculate()" class="form-control" formControlName="crops"
                         name="crops" id="crops">
-                    
-                        <optgroup label="Select Crop" *ngIf="stp.mode == 'vle_unpaid'">
-                            <option *ngFor="let crop of crops; index as i" value="{{i}}">{{crop.crop_name}}</option>
-                        </optgroup >
-                        <optgroup label="पीक निवडा" *ngIf="stp.mode == 'farmer'">
-                            <option *ngFor="let crop of crops; index as i" value="{{i}}">{{crop.crop_name_mr}}</option>
-                        </optgroup>
+                            <option *ngFor="let crop of crops; index as i" value="{{i}}">{{stp.mode == 'vle_unpaid' ? crop.crop_name:crop.crop_name_mr}}</option>                        
                     </select>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="form-group">
-                    <label for="area">Enter Area (Hectors)</label>
+                    <label for="area">{{stp.mode == 'vle_unpaid' ? 'Enter Area (Hectors)':'जमिनीचा आकार (हेक्टर)' }}</label>
                     <input tabindex="2" (change)="calculate()" (keypress)="calculate()" (keyup)="calculate()"
                         type="number" step="0.01" class="form-control" formControlName="area" name="area" id="area"
                         placeholder="Area In Hectors">
@@ -53,14 +47,14 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="form-group">
-                    <label for="premiumAmt">Farmer Share</label>
+                    <label for="premiumAmt">{{stp.mode == 'vle_unpaid' ? 'Farmer Share':'शेतकऱ्याने भरवायचा प्रीमियम'}}</label>
                     <input type="text" disabled formControlName="premiumAmt" class="form-control" name="premiumAmt"
                         id="premiumAmt" placeholder="Calculator will tell">
                 </div>
             </div>
             <div *ngIf="stp.mode == 'farmer'" class="col-sm-12 col-md-6 col-lg-3">
                 <div class="form-group">
-                    <label for="insuredAmt">Insured Amount</label>
+                    <label for="insuredAmt">{{stp.mode == 'vle_unpaid' ? 'Insured Amount':'विमा सुरक्षा'}}</label>
                     <input type="text" disabled formControlName="insuredAmt" class="form-control" name="insuredAmt"
                         id="insuredAmt" placeholder="">
                 </div>
@@ -73,7 +67,7 @@
                 [ngClass]="{'col-12': stp.mode == 'farmer', 'col-sm-12 col-md-6 col-lg-3 text-right': stp.mode == 'vle_unpaid'}">
                 <button tabindex="3" type="submit"
                     [ngClass]="{'btn-right': stp.mode == 'farmer' ,'width-100': stp.mode == 'vle_unpaid'}"
-                    class="btn btn-lg btn-primary">Add Crop</button>
+                    class="btn btn-lg btn-primary">{{stp.mode == 'vle_unpaid' ? 'Add Crop':'पीक जोडा'}}</button>
             </div>
         </form>
     </div>
@@ -136,14 +130,14 @@
             <table class="table table-bordered table-inverse">
                 <thead class="thead-inverse">
                     <tr class="bg-dark text-light print-dark-to-light">
-                        <th class="text-center">Sr. No.</th>
-                        <th>Crop Name</th>
-                        <th class="text-center">Area (Hectors)</th>
-                        <th class="text-center">Farmer Share</th>
-                        <th class="text-center" *ngIf="stp.mode == 'farmer'">Government Share</th>
-                        <th class="text-center" *ngIf="stp.mode == 'farmer'">Total Premium</th>
-                        <th class="text-center" *ngIf="stp.mode == 'farmer'">Insured Amount</th>
-                        <th class="text-center">Delete</th>
+                        <th class="text-center">{{stp.mode == 'vle_unpaid' ? 'Sr. No.':'अ.क्र.'}}</th>
+                        <th>{{stp.mode == 'vle_unpaid' ? 'Crop Name': 'पिकाचे नाव'}}</th>
+                        <th class="text-center">{{stp.mode == 'vle_unpaid' ? 'Area (Hectors)' : 'जमिनीचा आकार (हेक्टर)'}}</th>
+                        <th class="text-center">{{stp.mode == 'vle_unpaid' ? 'Farmer Share' : 'शेतकऱ्याने भरावयाचा प्रीमियम'}}</th>
+                        <th class="text-center" *ngIf="stp.mode == 'farmer'">शासनाचा प्रीमियम</th>
+                        <th class="text-center" *ngIf="stp.mode == 'farmer'">एकूण प्रीमियम</th>
+                        <th class="text-center" *ngIf="stp.mode == 'farmer'">विमा सुरक्षा</th>
+                        <th class="text-center">{{stp.mode == 'vle_unpaid' ? 'Delete' : 'डिलीट'}}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -168,15 +162,16 @@
                     </tr>
 
                     <tr>
-                        <td colspan="2" class="text-center"><strong>Total Crop<span *ngIf="total.crops > 1">s</span> :
+                        <td colspan="2" class="text-center"><strong>{{stp.mode == 'vle_unpaid' ? 'Total':'एकूण'}} :
                                 {{total.crops}}</strong></td>
                         <td class="text-center">{{ (total.area).toFixed(2) }}</td>
                         <td class="text-center">{{ (total.farmer_share).toFixed(2) }}</td>
                         <td class="text-center" *ngIf="stp.mode == 'farmer'">{{ (total.gov_share).toFixed(2) }}</td>
                         <td class="text-center" *ngIf="stp.mode == 'farmer'">{{ (total.premium).toFixed(2) }}</td>
                         <td class="text-center" *ngIf="stp.mode == 'farmer'">{{ (total.insured_amt).toFixed(2) }}</td>
-                        <td (click)="reset()" class="text-center text-danger" style="cursor: pointer"><strong><u>Delete
-                                    All</u></strong></td>
+                        <td (click)="reset()" class="text-center text-danger" style="cursor: pointer"><strong><u>
+                            {{stp.mode == 'vle_unpaid' ? 'Delete All':'सगळे डिलीट करा'}}
+                        </u></strong></td>
                     </tr>
                 </tbody>
             </table>
