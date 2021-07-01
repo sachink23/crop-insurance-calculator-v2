@@ -5117,7 +5117,7 @@ export class Seasons {
       "season_name": "Kharip - 2020",
       "season_name_mr": "\u0916\u0930\u0940\u092a - 2020",
       "season_year": 2021,
-      "states": {
+      "states": [{
         "state_id": 27,
         "state_name": "Maharashtra",
         "state_name_mr": "\u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
@@ -8242,7 +8242,7 @@ export class Seasons {
             ]
           }
         ]
-      }
+      }]
     }
 
   ];
