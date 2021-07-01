@@ -5114,8 +5114,8 @@ export class Seasons {
 },
     {
       "season_id": 4,
-      "season_name": "Kharip - 2020",
-      "season_name_mr": "\u0916\u0930\u0940\u092a - 2020",
+      "season_name": "Kharip - 2021",
+      "season_name_mr": "\u0916\u0930\u0940\u092a - 2021",
       "season_year": 2021,
       "states": [{
         "state_id": 27,
