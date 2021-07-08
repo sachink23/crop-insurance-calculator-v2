@@ -33,7 +33,7 @@
                     <label for="crops">{{stp.mode == 'vle_unpaid' ? 'Select Crop':'पीक निवडा'}}</label>
                     <select tabindex="1" (change)="calculate()" class="form-control" formControlName="crops"
                         name="crops" id="crops">
-                            <option *ngFor="let crop of crops; index as i" value="{{i}}">{{stp.mode == 'vle_unpaid' ? crop.crop_name:crop.crop_name_mr}}</option>                        
+                            <option *ngFor="let crop of crops; index as i" value="{{i}}">{{stp.mode == 'vle_unpaid' ? crop.crop_name:crop.crop_name_mr}}</option>
                     </select>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                         </td>
                         <td class="text-center" *ngIf="stp.mode == 'farmer'">
                             {{(areas[i] * crop.insurance_pricing.sum_insured).toFixed(2)}}</td>
-                        <td class="text-center" (click)="removeCrop(i)" class="text-center" style="cursor:pointer;"><i
+                        <td (click)="removeCrop(i)" class="text-center" style="cursor:pointer;"><i
                                 class="fa fa-trash text-danger"></i></td>
                     </tr>
 
@@ -179,7 +179,7 @@
     </div>
     <div class="container print mt-2">
         <p class="lead text-center" style="font-weight: bolder; text-decoration: underline;">Proudly Powered By
-            Kekarjawalekar Technologies - Crop Insurance Calculator V2 2019</p>
+            Kekarjawalekar Technologies - Crop Insurance Calculator V2</p>
     </div>
 </div>
 
@@ -200,81 +200,89 @@
                         <thead>
                             <tr>
                                 <th width="10%">#</th>
-                                <th width="30%">Quantity of Notes</th>
                                 <th width="25%">Value</th>
-                                <th width="25%"> Total</th>
+                                <th width="30%">Quantity of Notes</th>
+
+                              <th width="25%"> Total</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td scope="row">1</td>
+
+                                <td>2000</td>
                                 <td>
-                                    <input type="number" class="form-control form-control-sm" formControlName="note2000" name="note2000"
-                                        id="note2000">
+                                  <input type="number" class="form-control form-control-sm" formControlName="note2000" name="note2000"
+                                         id="note2000">
 
                                 </td>
-                                <td>2000</td>
                                 <td>{{ noteCalcForm.controls.note2000.value * 2000 }}</td>
                             </tr>
                             <tr>
                                 <td scope="row">2</td>
+
+                                <td>500</td>
                                 <td>
-                                    <input type="number" class="form-control form-control-sm" formControlName="note500" name="note500"
-                                        id="note500">
+                                  <input type="number" class="form-control form-control-sm" formControlName="note500" name="note500"
+                                         id="note500">
 
                                 </td>
-                                <td>500</td>
                                 <td>{{ noteCalcForm.controls.note500.value * 500 }}</td>
                             </tr>
                             <tr>
                                 <td scope="row">3</td>
+
+                                <td>200</td>
                                 <td>
-                                    <input type="number" class="form-control form-control-sm" formControlName="note200" name="note200"
-                                        id="note200">
+                                  <input type="number" class="form-control form-control-sm" formControlName="note200" name="note200"
+                                         id="note200">
 
                                 </td>
-                                <td>200</td>
                                 <td>{{ noteCalcForm.controls.note200.value * 200 }}</td>
                             </tr>
                             <tr>
                                 <td scope="row">4</td>
-                                <td>
-                                    <input type="number" class="form-control form-control-sm" formControlName="note100" name="note100"
-                                        id="note100">
 
-                                </td>
                                 <td>100</td>
                                 <td>{{ noteCalcForm.controls.note100.value * 100 }}</td>
+                                <td>
+                                  <input type="number" class="form-control form-control-sm" formControlName="note100" name="note100"
+                                         id="note100">
+
+                                </td>
                             </tr>
                             <tr>
                                 <td scope="row">5</td>
-                                <td>
-                                    <input type="number" class="form-control form-control-sm" formControlName="note50" name="note50"
-                                        id="note50">
 
-                                </td>
                                 <td>50</td>
                                 <td>{{ noteCalcForm.controls.note50.value * 50 }}</td>
+                                <td>
+                                  <input type="number" class="form-control form-control-sm" formControlName="note50" name="note50"
+                                         id="note50">
+
+                                </td>
                             </tr>
                             <tr>
                                 <td scope="row">6</td>
-                                <td>
-                                    <input type="number" class="form-control form-control-sm" formControlName="note20" name="note20"
-                                        id="note20">
 
-                                </td>
                                 <td>20</td>
                                 <td>{{ noteCalcForm.controls.note20.value * 20 }}</td>
+                                <td>
+                                  <input type="number" class="form-control form-control-sm" formControlName="note20" name="note20"
+                                         id="note20">
+
+                                </td>
                             </tr>
                             <tr>
                                 <td scope="row">7</td>
-                                <td>
-                                    <input type="number" class="form-control form-control-sm" formControlName="note10" name="note10"
-                                        id="note10">
 
-                                </td>
                                 <td>10</td>
                                 <td> {{ noteCalcForm.controls.note10.value * 10 }} </td>
+                                <td>
+                                  <input type="number" class="form-control form-control-sm" formControlName="note10" name="note10"
+                                         id="note10">
+
+                                </td>
                             </tr>
                             <tr>
                                 <td>
@@ -286,10 +294,10 @@
                                         noteCalcForm.controls.note2000.value * 2000 +
                                         noteCalcForm.controls.note500.value * 500 +
                                         noteCalcForm.controls.note200.value * 200 +
-                                        noteCalcForm.controls.note100.value * 100 + 
+                                        noteCalcForm.controls.note100.value * 100 +
                                         noteCalcForm.controls.note50.value * 50 +
                                         noteCalcForm.controls.note20.value * 20 +
-                                        noteCalcForm.controls.note10.value * 10 
+                                        noteCalcForm.controls.note10.value * 10
 
                                     }}</strong>
                                 </td>
