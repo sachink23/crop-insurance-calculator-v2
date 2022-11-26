@@ -13344,6 +13344,1983 @@ export class Seasons {
             ]
         }
     ]
+}, {
+  "season_id": 7,
+  "season_name": "Rabi - 2022",
+  "season_name_mr": "\u0930\u092c\u0940 - 2022",
+  "season_year": 2022,
+  "states": [
+      {
+          "state_id": 27,
+          "state_name": "Maharashtra",
+          "state_name_mr": "\u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930",
+          "districts": [
+              {
+                  "district_id": "522",
+                  "district_key": "4DAC8D04-5DEE-45A8-B292-C9514A1E8E1C",
+                  "district_name": "Ahmednagar",
+                  "district_name_mr": "\u0905\u0939\u092e\u0926\u0928\u0917\u0930",
+                  "insurance_company_details": {
+                      "name": "HDFC ERGO GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "HDFC \u0907\u0930\u094d\u0917\u094b \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002660700",
+                      "email": "pmfbycell@hdfcergo.com",
+                      "website": "www.hdfcergo.com",
+                      "headquarter_address": "D-301, 3rd Floor, Eastern Business District (Magnet Mall), LBS Marg, Bhandup (West). MUMBAI - 400078 State : Maharastra , City : MUMBAI, Pin Code : 400078",
+                      "headquarter_address_mr": "D-\u0969\u0966\u0967, \u0924\u093f\u0938\u0930\u093e \u092e\u091c\u0932\u093e, \u0907\u0938\u094d\u091f\u0930\u094d\u0928 \u092c\u093f\u0938\u0928\u0947\u0938 \u0921\u093f\u0938\u094d\u091f\u094d\u0930\u0940\u0915\u094d\u091f (\u092e\u0945\u0917\u094d\u0928\u0947\u091f \u092e\u0949\u0932), LBS \u092e\u093e\u0930\u094d\u0917, \u092d\u093e\u0902\u0921\u0942\u092a (\u092a\u0936\u094d\u091a\u093f\u092e) \u092e\u0941\u0902\u092c\u0908 - \u096a\u0966\u0966\u0966\u096d\u096e"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 588.27,
+                              "premium_gov_share": 4902.25,
+                              "sum_insured": 39218
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 570,
+                              "premium_gov_share": 2090,
+                              "sum_insured": 38000
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 4757.8,
+                              "premium_gov_share": 951.56,
+                              "sum_insured": 95156
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 630.225,
+                              "premium_gov_share": 5672.025,
+                              "sum_insured": 42015
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 599.925,
+                              "premium_gov_share": 5399.325,
+                              "sum_insured": 39995
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 712.92,
+                              "premium_gov_share": 2138.76,
+                              "sum_insured": 47528
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "501",
+                  "district_key": "113C0B03-72C2-4299-9AF3-677489FAF67D",
+                  "district_name": "Akola",
+                  "district_name_mr": "\u0905\u0915\u094b\u0932\u093e",
+                  "insurance_company_details": {
+                      "name": "ICICI LOMBARD GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "\u0906\u092f\u0938\u0940\u0906\u092f\u0938\u0940\u0906\u092f \u0932\u094b\u092e\u094d\u092c\u093e\u0930\u094d\u0921 \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002669725",
+                      "email": "customersupport@icicilombard.com",
+                      "website": "www.icicilombard.com",
+                      "headquarter_address": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025.",
+                      "headquarter_address_mr": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025."
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 432,
+                              "premium_gov_share": 2448,
+                              "sum_insured": 28800
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 12246.735,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 4380,
+                              "premium_gov_share": 17520,
+                              "sum_insured": 87600
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 630,
+                              "premium_gov_share": 7770,
+                              "sum_insured": 42000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "503",
+                  "district_key": "75121602-5645-43E1-8D77-235A3A54E269",
+                  "district_name": "Amravati",
+                  "district_name_mr": "\u0905\u092e\u0930\u093e\u0935\u0924\u0940",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 570,
+                              "premium_gov_share": 2470,
+                              "sum_insured": 38000
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 2363.405,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 3400,
+                              "premium_gov_share": 1360,
+                              "sum_insured": 68000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 600,
+                              "premium_gov_share": 1400,
+                              "sum_insured": 40000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "515",
+                  "district_key": "D954DE5F-35E5-4C1D-91CC-D2CA48C3658D",
+                  "district_name": "Aurangabad",
+                  "district_name_mr": "\u0914\u0930\u0902\u0917\u093e\u092c\u093e\u0926",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 588.27,
+                              "premium_gov_share": 7647.51,
+                              "sum_insured": 39218
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 4757.8,
+                              "premium_gov_share": 4757.8,
+                              "sum_insured": 95156
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 588.225,
+                              "premium_gov_share": 4117.575,
+                              "sum_insured": 39215
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 565.8,
+                              "premium_gov_share": 8864.2,
+                              "sum_insured": 37720
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 712.92,
+                              "premium_gov_share": 4990.44,
+                              "sum_insured": 47528
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "523",
+                  "district_key": "7E5FEE04-848D-435F-B1D8-A746063129F0",
+                  "district_name": "Beed",
+                  "district_name_mr": "\u092c\u0940\u0921",
+                  "insurance_company_details": {
+                      "name": "BAJAJ ALLIANZ GENERAL INSURANCE CO. LTD",
+                      "name_mr": "\u092c\u091c\u093e\u091c \u0905\u0901\u0932\u093f\u092f\u093e\u0928\u094d\u091d \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002095959",
+                      "email": "bagichelp@bajajallianz.co.in",
+                      "website": "www.bajajallianz.com",
+                      "headquarter_address": "Bajaj Allianz House, Airport Road, Yerawada, Pune 411 006",
+                      "headquarter_address_mr": "\u092c\u091c\u093e\u091c \u0905\u0901\u0932\u093f\u092f\u093e\u0928\u094d\u091d \u0939\u093e\u090a\u0938, \u0935\u093f\u092e\u093e\u0928\u0924\u0933 \u092e\u093e\u0930\u094d\u0917, \u092f\u0947\u0930\u0935\u0921\u093e, \u092a\u0941\u0923\u0947 - \u096a\u0967\u0967\u0966\u0966\u096c"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 588.27,
+                              "premium_gov_share": 8039.69,
+                              "sum_insured": 39218
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 4500,
+                              "premium_gov_share": 13500,
+                              "sum_insured": 90000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 570,
+                              "premium_gov_share": 7030,
+                              "sum_insured": 38000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 525,
+                              "premium_gov_share": 9275,
+                              "sum_insured": 35000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 645,
+                              "premium_gov_share": 5805,
+                              "sum_insured": 43000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "506",
+                  "district_key": "E3E2E89E-EB3F-4DEB-8A6D-00BFD82FF898",
+                  "district_name": "Bhandara",
+                  "district_name_mr": "\u092d\u0902\u0921\u093e\u0930\u093e",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 262.5,
+                              "premium_gov_share": 612.5,
+                              "sum_insured": 17500
+                          }
+                      },
+                      {
+                          "crop_key": "F99E0FA9-D9AE-4B9D-B3D2-184816C4AE50",
+                          "crop_name": "Paddy - Summer",
+                          "crop_name_mr": "\u0927\u093e\u0928 - \u0938\u092e\u0930",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 821.25,
+                              "premium_gov_share": 1916.25,
+                              "sum_insured": 54750
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 450,
+                              "premium_gov_share": 1050,
+                              "sum_insured": 30000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "500",
+                  "district_key": "8DFB1DF8-DEBD-4D07-9FF2-21AC52ADC634",
+                  "district_name": "Buldhana",
+                  "district_name_mr": "\u092c\u0941\u0932\u0922\u093e\u0923\u093e",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 581.25,
+                              "premium_gov_share": 1356.25,
+                              "sum_insured": 38750
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 4757.8,
+                              "premium_gov_share": 0,
+                              "sum_insured": 95156
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 712.92,
+                              "premium_gov_share": 1663.48,
+                              "sum_insured": 47528
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "509",
+                  "district_key": "36982F05-7ECB-4249-8A5B-E9F5204EA0B3",
+                  "district_name": "Chandrapur",
+                  "district_name_mr": "\u091a\u0902\u0926\u094d\u0930\u092a\u0941\u0930",
+                  "insurance_company_details": {
+                      "name": "HDFC ERGO GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "HDFC \u0907\u0930\u094d\u0917\u094b \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002660700",
+                      "email": "pmfbycell@hdfcergo.com",
+                      "website": "www.hdfcergo.com",
+                      "headquarter_address": "D-301, 3rd Floor, Eastern Business District (Magnet Mall), LBS Marg, Bhandup (West). MUMBAI - 400078 State : Maharastra , City : MUMBAI, Pin Code : 400078",
+                      "headquarter_address_mr": "D-\u0969\u0966\u0967, \u0924\u093f\u0938\u0930\u093e \u092e\u091c\u0932\u093e, \u0907\u0938\u094d\u091f\u0930\u094d\u0928 \u092c\u093f\u0938\u0928\u0947\u0938 \u0921\u093f\u0938\u094d\u091f\u094d\u0930\u0940\u0915\u094d\u091f (\u092e\u0945\u0917\u094d\u0928\u0947\u091f \u092e\u0949\u0932), LBS \u092e\u093e\u0930\u094d\u0917, \u092d\u093e\u0902\u0921\u0942\u092a (\u092a\u0936\u094d\u091a\u093f\u092e) \u092e\u0941\u0902\u092c\u0908 - \u096a\u0966\u0966\u0966\u096d\u096e"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 588.27,
+                              "premium_gov_share": 980.45,
+                              "sum_insured": 39218
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 457.5,
+                              "premium_gov_share": 2592.5,
+                              "sum_insured": 30500
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 615,
+                              "premium_gov_share": 1025,
+                              "sum_insured": 41000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "498",
+                  "district_key": "E5D02CAC-058C-41BB-B8BC-84A285AC4C39",
+                  "district_name": "Dhule",
+                  "district_name_mr": "\u0927\u0941\u0933\u0947",
+                  "insurance_company_details": {
+                      "name": "ICICI LOMBARD GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "\u0906\u092f\u0938\u0940\u0906\u092f\u0938\u0940\u0906\u092f \u0932\u094b\u092e\u094d\u092c\u093e\u0930\u094d\u0921 \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002669725",
+                      "email": "customersupport@icicilombard.com",
+                      "website": "www.icicilombard.com",
+                      "headquarter_address": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025.",
+                      "headquarter_address_mr": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025."
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 562.5,
+                              "premium_gov_share": 8812.5,
+                              "sum_insured": 37500
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 600,
+                              "premium_gov_share": 11400,
+                              "sum_insured": 40000
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 4000,
+                              "premium_gov_share": 16000,
+                              "sum_insured": 80000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 487.5,
+                              "premium_gov_share": 9262.5,
+                              "sum_insured": 32500
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 675,
+                              "premium_gov_share": 8325,
+                              "sum_insured": 45000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "508",
+                  "district_key": "4A9CCD40-182F-4213-866E-EEEABFA2467E",
+                  "district_name": "Gadchiroli",
+                  "district_name_mr": "\u0917\u0921\u091a\u093f\u0930\u094b\u0932\u0940",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 300,
+                              "premium_gov_share": 700,
+                              "sum_insured": 20000
+                          }
+                      },
+                      {
+                          "crop_key": "F99E0FA9-D9AE-4B9D-B3D2-184816C4AE50",
+                          "crop_name": "Paddy - Summer",
+                          "crop_name_mr": "\u0927\u093e\u0928 - \u0938\u092e\u0930",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 562.5,
+                              "premium_gov_share": 1312.5,
+                              "sum_insured": 37500
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 337.5,
+                              "premium_gov_share": 1237.5,
+                              "sum_insured": 22500
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 412.5,
+                              "premium_gov_share": 962.5,
+                              "sum_insured": 27500
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "507",
+                  "district_key": "3F5DA162-DC5F-4880-AEFC-54581916320F",
+                  "district_name": "Gondia",
+                  "district_name_mr": "\u0917\u094b\u0902\u0926\u093f\u092f\u093e",
+                  "insurance_company_details": {
+                      "name": "HDFC ERGO GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "HDFC \u0907\u0930\u094d\u0917\u094b \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002660700",
+                      "email": "pmfbycell@hdfcergo.com",
+                      "website": "www.hdfcergo.com",
+                      "headquarter_address": "D-301, 3rd Floor, Eastern Business District (Magnet Mall), LBS Marg, Bhandup (West). MUMBAI - 400078 State : Maharastra , City : MUMBAI, Pin Code : 400078",
+                      "headquarter_address_mr": "D-\u0969\u0966\u0967, \u0924\u093f\u0938\u0930\u093e \u092e\u091c\u0932\u093e, \u0907\u0938\u094d\u091f\u0930\u094d\u0928 \u092c\u093f\u0938\u0928\u0947\u0938 \u0921\u093f\u0938\u094d\u091f\u094d\u0930\u0940\u0915\u094d\u091f (\u092e\u0945\u0917\u094d\u0928\u0947\u091f \u092e\u0949\u0932), LBS \u092e\u093e\u0930\u094d\u0917, \u092d\u093e\u0902\u0921\u0942\u092a (\u092a\u0936\u094d\u091a\u093f\u092e) \u092e\u0941\u0902\u092c\u0908 - \u096a\u0966\u0966\u0966\u096d\u096e"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 487.5,
+                              "premium_gov_share": 2762.5,
+                              "sum_insured": 32500
+                          }
+                      },
+                      {
+                          "crop_key": "F99E0FA9-D9AE-4B9D-B3D2-184816C4AE50",
+                          "crop_name": "Paddy - Summer",
+                          "crop_name_mr": "\u0927\u093e\u0928 - \u0938\u092e\u0930",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 900,
+                              "premium_gov_share": 5100,
+                              "sum_insured": 60000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "512",
+                  "district_key": "72CBAE3B-D128-4D4D-B387-7E9410184CD3",
+                  "district_name": "Hingoli",
+                  "district_name_mr": "\u0939\u093f\u0902\u0917\u094b\u0932\u0940",
+                  "insurance_company_details": {
+                      "name": "ICICI LOMBARD GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "\u0906\u092f\u0938\u0940\u0906\u092f\u0938\u0940\u0906\u092f \u0932\u094b\u092e\u094d\u092c\u093e\u0930\u094d\u0921 \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002669725",
+                      "email": "customersupport@icicilombard.com",
+                      "website": "www.icicilombard.com",
+                      "headquarter_address": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025.",
+                      "headquarter_address_mr": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025."
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 562.5,
+                              "premium_gov_share": 3187.5,
+                              "sum_insured": 37500
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 10098.185,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 510,
+                              "premium_gov_share": 9690,
+                              "sum_insured": 34000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 630,
+                              "premium_gov_share": 4410,
+                              "sum_insured": 42000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "499",
+                  "district_key": "4324DD21-508A-4F7C-9A6F-CDCB60AA60B6",
+                  "district_name": "Jalgaon",
+                  "district_name_mr": "\u091c\u0933\u0917\u093e\u0935",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 360,
+                              "premium_gov_share": 840,
+                              "sum_insured": 24000
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 525,
+                              "premium_gov_share": 1925,
+                              "sum_insured": 35000
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 3000,
+                              "premium_gov_share": 600,
+                              "sum_insured": 60000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 360,
+                              "premium_gov_share": 840,
+                              "sum_insured": 24000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 360,
+                              "premium_gov_share": 840,
+                              "sum_insured": 24000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 450,
+                              "premium_gov_share": 1050,
+                              "sum_insured": 30000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "514",
+                  "district_key": "9AF33CF1-BC0B-4AE2-98A5-3E908B29F38D",
+                  "district_name": "Jalna",
+                  "district_name_mr": "\u091c\u093e\u0932\u0928\u093e",
+                  "insurance_company_details": {
+                      "name": "HDFC ERGO GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "HDFC \u0907\u0930\u094d\u0917\u094b \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002660700",
+                      "email": "pmfbycell@hdfcergo.com",
+                      "website": "www.hdfcergo.com",
+                      "headquarter_address": "D-301, 3rd Floor, Eastern Business District (Magnet Mall), LBS Marg, Bhandup (West). MUMBAI - 400078 State : Maharastra , City : MUMBAI, Pin Code : 400078",
+                      "headquarter_address_mr": "D-\u0969\u0966\u0967, \u0924\u093f\u0938\u0930\u093e \u092e\u091c\u0932\u093e, \u0907\u0938\u094d\u091f\u0930\u094d\u0928 \u092c\u093f\u0938\u0928\u0947\u0938 \u0921\u093f\u0938\u094d\u091f\u094d\u0930\u0940\u0915\u094d\u091f (\u092e\u0945\u0917\u094d\u0928\u0947\u091f \u092e\u0949\u0932), LBS \u092e\u093e\u0930\u094d\u0917, \u092d\u093e\u0902\u0921\u0942\u092a (\u092a\u0936\u094d\u091a\u093f\u092e) \u092e\u0941\u0902\u092c\u0908 - \u096a\u0966\u0966\u0966\u096d\u096e"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 525,
+                              "premium_gov_share": 8925,
+                              "sum_insured": 35000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 495,
+                              "premium_gov_share": 4455,
+                              "sum_insured": 33000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 465,
+                              "premium_gov_share": 7595,
+                              "sum_insured": 31000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 570,
+                              "premium_gov_share": 5130,
+                              "sum_insured": 38000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "530",
+                  "district_key": "1797E4F8-D150-4C87-A254-BAFEF1DC0846",
+                  "district_name": "Kolhapur",
+                  "district_name_mr": "\u0915\u094b\u0932\u094d\u0939\u093e\u092a\u0941\u0930",
+                  "insurance_company_details": {
+                      "name": "HDFC ERGO GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "HDFC \u0907\u0930\u094d\u0917\u094b \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002660700",
+                      "email": "pmfbycell@hdfcergo.com",
+                      "website": "www.hdfcergo.com",
+                      "headquarter_address": "D-301, 3rd Floor, Eastern Business District (Magnet Mall), LBS Marg, Bhandup (West). MUMBAI - 400078 State : Maharastra , City : MUMBAI, Pin Code : 400078",
+                      "headquarter_address_mr": "D-\u0969\u0966\u0967, \u0924\u093f\u0938\u0930\u093e \u092e\u091c\u0932\u093e, \u0907\u0938\u094d\u091f\u0930\u094d\u0928 \u092c\u093f\u0938\u0928\u0947\u0938 \u0921\u093f\u0938\u094d\u091f\u094d\u0930\u0940\u0915\u094d\u091f (\u092e\u0945\u0917\u094d\u0928\u0947\u091f \u092e\u0949\u0932), LBS \u092e\u093e\u0930\u094d\u0917, \u092d\u093e\u0902\u0921\u0942\u092a (\u092a\u0936\u094d\u091a\u093f\u092e) \u092e\u0941\u0902\u092c\u0908 - \u096a\u0966\u0966\u0966\u096d\u096e"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 525,
+                              "premium_gov_share": 3325,
+                              "sum_insured": 35000
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 1933.695,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 465,
+                              "premium_gov_share": 1085,
+                              "sum_insured": 31000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 570,
+                              "premium_gov_share": 1330,
+                              "sum_insured": 38000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "524",
+                  "district_key": "09084A98-778C-4F9C-991F-DA18D863EDCD",
+                  "district_name": "Latur",
+                  "district_name_mr": "\u0932\u093e\u0924\u0942\u0930",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 540,
+                              "premium_gov_share": 3420,
+                              "sum_insured": 36000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 495,
+                              "premium_gov_share": 2805,
+                              "sum_insured": 33000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 465,
+                              "premium_gov_share": 2015,
+                              "sum_insured": 31000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 570,
+                              "premium_gov_share": 1330,
+                              "sum_insured": 38000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "505",
+                  "district_key": "229D23D1-F50C-4B65-9E26-F1A0E4B68DC2",
+                  "district_name": "Nagpur",
+                  "district_name_mr": "\u0928\u093e\u0917\u092a\u0942\u0930",
+                  "insurance_company_details": {
+                      "name": "ICICI LOMBARD GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "\u0906\u092f\u0938\u0940\u0906\u092f\u0938\u0940\u0906\u092f \u0932\u094b\u092e\u094d\u092c\u093e\u0930\u094d\u0921 \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002669725",
+                      "email": "customersupport@icicilombard.com",
+                      "website": "www.icicilombard.com",
+                      "headquarter_address": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025.",
+                      "headquarter_address_mr": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025."
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 543.75,
+                              "premium_gov_share": 4893.75,
+                              "sum_insured": 36250
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 420,
+                              "premium_gov_share": 7980,
+                              "sum_insured": 28000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 637.5,
+                              "premium_gov_share": 3612.5,
+                              "sum_insured": 42500
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "511",
+                  "district_key": "7520E0D3-4D72-4A44-8569-D2C12F377D8C",
+                  "district_name": "Nanded",
+                  "district_name_mr": "\u0928\u093e\u0902\u0926\u0947\u0921",
+                  "insurance_company_details": {
+                      "name": "UNITED INDIA INSURANCE CO.",
+                      "name_mr": "\u092f\u0941\u0928\u093e\u092f\u091f\u0947\u0921 \u0907\u0902\u0921\u093f\u092f\u093e \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "180042533333",
+                      "email": "customercare@uiic.co.in",
+                      "website": "www.uiic.co.in",
+                      "headquarter_address": "Customer care department, no.24, whites road, Chennai-600014",
+                      "headquarter_address_mr": "Customer care department, no.24, whites road, Chennai-600014"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 562.5,
+                              "premium_gov_share": 5246.25,
+                              "sum_insured": 37500
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 506.25,
+                              "premium_gov_share": 3597.75,
+                              "sum_insured": 33750
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 637.5,
+                              "premium_gov_share": 2970.75,
+                              "sum_insured": 42500
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "497",
+                  "district_key": "DAF2117B-C65B-417F-8AFD-2B546219274F",
+                  "district_name": "Nandurbar",
+                  "district_name_mr": "\u0928\u0902\u0926\u0941\u0930\u092c\u093e\u0930",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 562.5,
+                              "premium_gov_share": 1312.5,
+                              "sum_insured": 37500
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 600,
+                              "premium_gov_share": 1400,
+                              "sum_insured": 40000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 487.5,
+                              "premium_gov_share": 1137.5,
+                              "sum_insured": 32500
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 675,
+                              "premium_gov_share": 1575,
+                              "sum_insured": 45000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "516",
+                  "district_key": "F2B00BC8-F403-4ED5-8185-4C5AC2B60BB8",
+                  "district_name": "Nashik",
+                  "district_name_mr": "\u0928\u093e\u0936\u093f\u0915",
+                  "insurance_company_details": {
+                      "name": "HDFC ERGO GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "HDFC \u0907\u0930\u094d\u0917\u094b \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002660700",
+                      "email": "pmfbycell@hdfcergo.com",
+                      "website": "www.hdfcergo.com",
+                      "headquarter_address": "D-301, 3rd Floor, Eastern Business District (Magnet Mall), LBS Marg, Bhandup (West). MUMBAI - 400078 State : Maharastra , City : MUMBAI, Pin Code : 400078",
+                      "headquarter_address_mr": "D-\u0969\u0966\u0967, \u0924\u093f\u0938\u0930\u093e \u092e\u091c\u0932\u093e, \u0907\u0938\u094d\u091f\u0930\u094d\u0928 \u092c\u093f\u0938\u0928\u0947\u0938 \u0921\u093f\u0938\u094d\u091f\u094d\u0930\u0940\u0915\u094d\u091f (\u092e\u0945\u0917\u094d\u0928\u0947\u091f \u092e\u0949\u0932), LBS \u092e\u093e\u0930\u094d\u0917, \u092d\u093e\u0902\u0921\u0942\u092a (\u092a\u0936\u094d\u091a\u093f\u092e) \u092e\u0941\u0902\u092c\u0908 - \u096a\u0966\u0966\u0966\u096d\u096e"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 450,
+                              "premium_gov_share": 750,
+                              "sum_insured": 30000
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 1933.695,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 4500,
+                              "premium_gov_share": 0,
+                              "sum_insured": 90000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 495,
+                              "premium_gov_share": 3135,
+                              "sum_insured": 33000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 450,
+                              "premium_gov_share": 1350,
+                              "sum_insured": 30000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 600,
+                              "premium_gov_share": 1000,
+                              "sum_insured": 40000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "525",
+                  "district_key": "B19F46D0-5FC0-44C2-8875-19A3DD56022C",
+                  "district_name": "Osmanabad",
+                  "district_name_mr": "\u0909\u0938\u094d\u092e\u093e\u0928\u093e\u092c\u093e\u0926",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 577.5,
+                              "premium_gov_share": 5582.5,
+                              "sum_insured": 38500
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 5801.085,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 4400,
+                              "premium_gov_share": 2640,
+                              "sum_insured": 88000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 544.5,
+                              "premium_gov_share": 4174.5,
+                              "sum_insured": 36300
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 511.5,
+                              "premium_gov_share": 4603.5,
+                              "sum_insured": 34100
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 627,
+                              "premium_gov_share": 5225,
+                              "sum_insured": 41800
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "513",
+                  "district_key": "6CCECBEC-74C0-465F-A66B-AA9A939E7B91",
+                  "district_name": "Parbhani",
+                  "district_name_mr": "\u092a\u0930\u092d\u0923\u0940",
+                  "insurance_company_details": {
+                      "name": "ICICI LOMBARD GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "\u0906\u092f\u0938\u0940\u0906\u092f\u0938\u0940\u0906\u092f \u0932\u094b\u092e\u094d\u092c\u093e\u0930\u094d\u0921 \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002669725",
+                      "email": "customersupport@icicilombard.com",
+                      "website": "www.icicilombard.com",
+                      "headquarter_address": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025.",
+                      "headquarter_address_mr": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025."
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 562.5,
+                              "premium_gov_share": 2437.5,
+                              "sum_insured": 37500
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 7949.635,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 510,
+                              "premium_gov_share": 4590,
+                              "sum_insured": 34000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 630,
+                              "premium_gov_share": 1890,
+                              "sum_insured": 42000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "521",
+                  "district_key": "4EDFE0E5-A93D-47E6-8B1C-33198312F020",
+                  "district_name": "Pune",
+                  "district_name_mr": "\u092a\u0941\u0923\u0947",
+                  "insurance_company_details": {
+                      "name": "ICICI LOMBARD GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "\u0906\u092f\u0938\u0940\u0906\u092f\u0938\u0940\u0906\u092f \u0932\u094b\u092e\u094d\u092c\u093e\u0930\u094d\u0921 \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002669725",
+                      "email": "customersupport@icicilombard.com",
+                      "website": "www.icicilombard.com",
+                      "headquarter_address": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025.",
+                      "headquarter_address_mr": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025."
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 525,
+                              "premium_gov_share": 9975,
+                              "sum_insured": 35000
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 600,
+                              "premium_gov_share": 11400,
+                              "sum_insured": 40000
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 4000,
+                              "premium_gov_share": 16000,
+                              "sum_insured": 80000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 495,
+                              "premium_gov_share": 9405,
+                              "sum_insured": 33000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 465,
+                              "premium_gov_share": 8835,
+                              "sum_insured": 31000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 570,
+                              "premium_gov_share": 10070,
+                              "sum_insured": 38000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "520",
+                  "district_key": "B8BD5699-B6E9-4CE6-BD41-F76085B97C4D",
+                  "district_name": "Raigad",
+                  "district_name_mr": "\u0930\u093e\u092f\u0917\u0921",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 3222.825,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "F99E0FA9-D9AE-4B9D-B3D2-184816C4AE50",
+                          "crop_name": "Paddy - Summer",
+                          "crop_name_mr": "\u0927\u093e\u0928 - \u0938\u092e\u0930",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 915,
+                              "premium_gov_share": 2135,
+                              "sum_insured": 61000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "528",
+                  "district_key": "34E28DE5-BF7D-48C4-A5A1-93A3223D4B34",
+                  "district_name": "Ratnagiri",
+                  "district_name_mr": "\u0930\u0924\u094d\u0928\u093e\u0917\u093f\u0930\u0940",
+                  "insurance_company_details": {
+                      "name": "UNITED INDIA INSURANCE CO.",
+                      "name_mr": "\u092f\u0941\u0928\u093e\u092f\u091f\u0947\u0921 \u0907\u0902\u0921\u093f\u092f\u093e \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "180042533333",
+                      "email": "customercare@uiic.co.in",
+                      "website": "www.uiic.co.in",
+                      "headquarter_address": "Customer care department, no.24, whites road, Chennai-600014",
+                      "headquarter_address_mr": "Customer care department, no.24, whites road, Chennai-600014"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 1160.217,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "F99E0FA9-D9AE-4B9D-B3D2-184816C4AE50",
+                          "crop_name": "Paddy - Summer",
+                          "crop_name_mr": "\u0927\u093e\u0928 - \u0938\u092e\u0930",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 690,
+                              "premium_gov_share": 1628.4,
+                              "sum_insured": 46000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "531",
+                  "district_key": "2D5D29B0-FB48-49FA-AC5F-5A765339BE20",
+                  "district_name": "Sangli",
+                  "district_name_mr": "\u0938\u093e\u0902\u0917\u0932\u0940",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 525,
+                              "premium_gov_share": 2625,
+                              "sum_insured": 35000
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 600,
+                              "premium_gov_share": 1400,
+                              "sum_insured": 40000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 525,
+                              "premium_gov_share": 1925,
+                              "sum_insured": 35000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 375,
+                              "premium_gov_share": 2625,
+                              "sum_insured": 25000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 450,
+                              "premium_gov_share": 1050,
+                              "sum_insured": 30000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "527",
+                  "district_key": "09BFCF93-3DE4-4BAB-8D4F-A2F87F54D7EA",
+                  "district_name": "Satara",
+                  "district_name_mr": "\u0938\u093e\u0924\u093e\u0930\u093e",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 285,
+                              "premium_gov_share": 1805,
+                              "sum_insured": 19000
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 600,
+                              "premium_gov_share": 3800,
+                              "sum_insured": 40000
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 2300,
+                              "premium_gov_share": 2760,
+                              "sum_insured": 46000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 390,
+                              "premium_gov_share": 2470,
+                              "sum_insured": 26000
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 300,
+                              "premium_gov_share": 4100,
+                              "sum_insured": 20000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 450,
+                              "premium_gov_share": 2250,
+                              "sum_insured": 30000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "529",
+                  "district_key": "6547098B-579A-4571-9ED8-A70599C092A5",
+                  "district_name": "Sindhudurg",
+                  "district_name_mr": "\u0938\u093f\u0902\u0927\u0941\u0926\u0941\u0930\u094d\u0917",
+                  "insurance_company_details": {
+                      "name": "UNITED INDIA INSURANCE CO.",
+                      "name_mr": "\u092f\u0941\u0928\u093e\u092f\u091f\u0947\u0921 \u0907\u0902\u0921\u093f\u092f\u093e \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "180042533333",
+                      "email": "customercare@uiic.co.in",
+                      "website": "www.uiic.co.in",
+                      "headquarter_address": "Customer care department, no.24, whites road, Chennai-600014",
+                      "headquarter_address_mr": "Customer care department, no.24, whites road, Chennai-600014"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 570,
+                              "premium_gov_share": 1345.2,
+                              "sum_insured": 38000
+                          }
+                      },
+                      {
+                          "crop_key": "F99E0FA9-D9AE-4B9D-B3D2-184816C4AE50",
+                          "crop_name": "Paddy - Summer",
+                          "crop_name_mr": "\u0927\u093e\u0928 - \u0938\u092e\u0930",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 900,
+                              "premium_gov_share": 1620,
+                              "sum_insured": 60000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "526",
+                  "district_key": "8CD09BFD-EE55-4FF6-85E3-E7C271A35711",
+                  "district_name": "Solapur",
+                  "district_name_mr": "\u0938\u094b\u0932\u093e\u092a\u0942\u0930",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 450,
+                              "premium_gov_share": 2850,
+                              "sum_insured": 30000
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 600,
+                              "premium_gov_share": 3400,
+                              "sum_insured": 40000
+                          }
+                      },
+                      {
+                          "crop_key": "9A17AF2D-2891-4EE9-9232-24C8F814D6BD",
+                          "crop_name": "Onion",
+                          "crop_name_mr": "\u0915\u093e\u0902\u0926\u093e",
+                          "crop_category": "Vegetables",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 3250,
+                              "premium_gov_share": 3900,
+                              "sum_insured": 65000
+                          }
+                      },
+                      {
+                          "crop_key": "FA63BD55-E3B8-494B-9976-FECB1E21DE69",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - IR",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - IR",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 487.5,
+                              "premium_gov_share": 3737.5,
+                              "sum_insured": 32500
+                          }
+                      },
+                      {
+                          "crop_key": "9F5C5F6D-5F21-4F1C-87A4-2BCAD916F242",
+                          "crop_name": "Sorghum (Jowar\/Great Millet) - RF",
+                          "crop_name_mr": "\u091c\u094d\u0935\u093e\u0930\u0940 - RF",
+                          "crop_category": "Millets",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 345,
+                              "premium_gov_share": 4715,
+                              "sum_insured": 23000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 495,
+                              "premium_gov_share": 2475,
+                              "sum_insured": 33000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "504",
+                  "district_key": "C4F52800-6BCA-40D2-8153-54F0E952CD4A",
+                  "district_name": "Wardha",
+                  "district_name_mr": "\u0935\u0930\u094d\u0927\u093e",
+                  "insurance_company_details": {
+                      "name": "ICICI LOMBARD GENERAL INSURANCE CO. LTD.",
+                      "name_mr": "\u0906\u092f\u0938\u0940\u0906\u092f\u0938\u0940\u0906\u092f \u0932\u094b\u092e\u094d\u092c\u093e\u0930\u094d\u0921 \u091c\u0928\u0930\u0932 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940 \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+                      "toll_free_number": "18002669725",
+                      "email": "customersupport@icicilombard.com",
+                      "website": "www.icicilombard.com",
+                      "headquarter_address": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025.",
+                      "headquarter_address_mr": "ICICI Lombard House 414, P.Balu Marg,Off Veer Sawarkar Marg,near Siddhivinayak Temple, Prabhadevi,Mumbai-400025."
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 525,
+                              "premium_gov_share": 6475,
+                              "sum_insured": 35000
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 570,
+                              "premium_gov_share": 4750,
+                              "sum_insured": 38000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "502",
+                  "district_key": "34B27A18-ED9B-45F9-8681-9ED42B8B3738",
+                  "district_name": "Washim",
+                  "district_name_mr": "\u0935\u093e\u0936\u0940\u092e",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 432,
+                              "premium_gov_share": 1008,
+                              "sum_insured": 28800
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 2363.405,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 630,
+                              "premium_gov_share": 1470,
+                              "sum_insured": 42000
+                          }
+                      }
+                  ]
+              },
+              {
+                  "district_id": "510",
+                  "district_key": "067098B8-7AEB-40DC-A459-B2322D2853D8",
+                  "district_name": "Yavatmal",
+                  "district_name_mr": "\u092f\u0935\u0924\u092e\u093e\u0933",
+                  "insurance_company_details": {
+                      "name": "AGRICULTURE INSURANCE COMPANY",
+                      "name_mr": "\u0905\u0945\u0917\u094d\u0930\u0940\u0930\u0940\u0915\u0932\u094d\u091a\u0930 \u0907\u0928\u094d\u0936\u0941\u0930\u0928\u094d\u0938 \u0915\u0902\u092a\u0928\u0940",
+                      "toll_free_number": "1800116515",
+                      "email": "fasalbima@aicofindia.com",
+                      "website": "www.aicofindia.com",
+                      "headquarter_address": "Office Block-1, 5th Floor, Plate-B & C, East Kidwai Nagar, Ring Road, New Delhi-110023",
+                      "headquarter_address_mr": "\u0913\u092b\u093f\u0938 \u092c\u094d\u0932\u094b\u0915 - \u0967, \u096b \u0935\u093e \u092e\u091c\u0932\u093e, \u092a\u094d\u0932\u0947\u091f - \u092c\u0940 & \u0938\u0940, \u0907\u0938\u094d\u091f \u0915\u093f\u0921\u0935\u093e\u0908 \u0928\u0917\u0930, \u0930\u093f\u0902\u0917 \u0930\u094b\u0921, \u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 - \u0967\u0967\u0966\u0966\u0968\u0969"
+                  },
+                  "crops": [
+                      {
+                          "crop_key": "EBD22367-A894-40EF-BEF9-1D0BB74ACB0F",
+                          "crop_name": "Bengal Gram (Chana)",
+                          "crop_name_mr": "\u091a\u0928\u093e",
+                          "crop_category": "Pulses",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 588.27,
+                              "premium_gov_share": 1372.63,
+                              "sum_insured": 39218
+                          }
+                      },
+                      {
+                          "crop_key": "CAA9906B-C672-4E78-B3C2-50542B4B097B",
+                          "crop_name": "Groundnut (Pea Nut) - Summer",
+                          "crop_name_mr": "\u092d\u0941\u0908\u092e\u0941\u0917",
+                          "crop_category": "Oilseeds",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 644.565,
+                              "premium_gov_share": 2793.115,
+                              "sum_insured": 42971
+                          }
+                      },
+                      {
+                          "crop_key": "9E5F7C79-7655-4C2C-9484-D27E77DDEE3E",
+                          "crop_name": "Wheat - IR",
+                          "crop_name_mr": "\u0917\u0939\u0942 - IR",
+                          "crop_category": "Cereals",
+                          "insurance_pricing": {
+                              "premium_farmer_share": 607.8,
+                              "premium_gov_share": 1823.4,
+                              "sum_insured": 40520
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
 }
 
   ];
