@@ -2,8 +2,8 @@ export class Seasons {
   data = [
     {
       "season_id": 8,
-      "season_name": "Kharip - 2024",
-      "season_name_mr": "खरीप - 2024",
+      "season_name": "Kharip - 2025",
+      "season_name_mr": "खरीप - 2025",
       "season_year": 2025,
       "states": [
         {
