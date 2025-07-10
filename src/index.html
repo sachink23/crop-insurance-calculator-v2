@@ -23,7 +23,24 @@
     const targetDomain = "maulimultiservices.in";
 
     if (currentDomain !== targetDomain) {
-      window.location.href = `https://${targetDomain}/crop-insurance/calculator/`;
+
+
+
+      // Unregister SW before redirect
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for (let registration of registrations) {
+            registration.unregister();
+          }
+          // Delay slightly to allow unregister
+          setTimeout(() => {
+            console.log("Unregistered Service Worker")
+            window.location.href = `https://${targetDomain}/crop-insurance/calculator/`;
+          }, 100);
+        });
+      } else {
+        window.location.href = `https://${targetDomain}/crop-insurance/calculator/`;
+      }
     }
     })();
   </script>

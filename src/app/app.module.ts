@@ -67,7 +67,6 @@ import { TutorialVideoComponent } from './components/ui-elements/tutorial-video/
     BrowserAnimationsModule,
     AppRoutingModule,
     SweetAlert2Module,
-
     FormsModule,
     ReactiveFormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
